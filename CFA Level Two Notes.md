@@ -1355,6 +1355,10 @@ The **minimum loss** that would be expected, **a certain percentage at the time*
 
 Expressed in either currency units or in percentage terms. The 5% VaR of a portfolio is 2.2M over a one-day period. 
 
+>* €2.2 million is the minimum loss we would expect 5% of the time; or
+>* 5% of the time, losses would be at least €2.2 million; or
+>* we would expect a loss of no more than €2.2 million 95% of the time.
+
 #### Example
 
 > The 5% VaR of a portfolio is 2.2M over a one-day period. 
@@ -2214,17 +2218,16 @@ International  Parity conditions serve as an anchor for longer-term exchange mov
 >
 > Fisher effect stated that $i_f-i_d = \pi_f-\pi_d$ and we are given $r_f-r_d = 0$
 >
-> Therefore, it should be equal to 4%.
+> Therefore, it should be equal to 4%. 
 >
-> 
 
-This is 
+If all international parity conditions held:
 
+$\%\Delta S_{f/d}^e = \text{forward premium/discount} = i_f - i_d = \pi_f -\pi_e$
 
+![image-20200225110452012](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20200225110452012.png)
 
-
-
-
+If all conditions held, it would be impossible for a global investor to earn consistent profits on currency movements. 
 
 
 
