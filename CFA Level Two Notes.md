@@ -2262,9 +2262,20 @@ For situation (2), encourage depreciation to bring foreign exhcange rate closer 
 
 ## Carry Trade
 
-The **UIRP** 
+The **UIRP**, states that
 
+* High-yield currencies are expected to depreciate
+* Low-yield currencies are expected to apprecate
 
+However, there are significant evidence that UIRP does not hold short and medium term time periods. Which opens up a trading strategy called the **Carry Trade.**
+
+Take long positions in high yield currencies and short positions in low yield currencies (Funding currencies). Earns positive excess returns in most market conditions. 
+
+However, volatility and perceived risk can cause these positions to unwind fast. Referred as **crash risk.**
+
+Carry trades use considerable leverage, usually 50 to 200 times. 
+
+Use of a volatility filter
 
 
 
