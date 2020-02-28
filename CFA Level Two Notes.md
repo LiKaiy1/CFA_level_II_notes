@@ -2114,7 +2114,7 @@ However, the covered interest rate parity condition usually does not hold in sho
 
 ### Uncovered interest rate parity
 
-On an uncovered (unhedged) foreign currency investment should equal the return on a comparable dpmestic currency investment. 
+On an uncovered (unhedged) foreign currency investment should equal the return on a comparable domestic currency investment. 
 
 > Example
 >
@@ -2228,6 +2228,41 @@ $\%\Delta S_{f/d}^e = \text{forward premium/discount} = i_f - i_d = \pi_f -\pi_e
 ![image-20200225110452012](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20200225110452012.png)
 
 If all conditions held, it would be impossible for a global investor to earn consistent profits on currency movements. 
+
+## Assessing Equilibrium
+
+3 approaches to derive long-run equilibrium exchange rate assessments. 
+
+**Learned from Level 1: The balance of current account and capital account must sum to zero.**
+
+### Macroeconomic Balance Approach
+
+Estimates how much foreign exhcange rates need to adjust in order to close the gap between the medium-term expectation for a country's current account balance and the country's normal or sustainable current account imbalance. 
+
+### External Sustainablility approach
+
+Focuses on stocks of outstanding assets or debt: how much foriegn exchange rates need to adjust to ensure that a country's net foreign asset/GDP ratio or net foreign liability/GDP ratio stability. 
+
+### A reduced form econometric model
+
+Seeks to estimate the equilibrium path that a currency should take on the basis of the trends in several key macro variables. 
+
+Empirical observations: Predict Direction but poor on magnitude. Also tend to over predict. 
+
+**International parity relations specify relationships, these 3 approaches attempt to explain some of the mechanisms taht help realogn foreign exchange rates.**
+
+### With PPP
+
+|                       | PPP Overvaluation                      | PPP Undervaluation                      |
+| --------------------- | -------------------------------------- | --------------------------------------- |
+| Current Asset Surplus | Overvalued Currency, trade surplus (1) | Undervalued Currency, Trade surplus (3) |
+| Current Asset Deficit | Overvalued currency, trade deficit (2) | Overvalued Surplus, trade deficit (4)   |
+
+For situation (2), encourage depreciation to bring foreign exhcange rate closer to long-run fair vale. For situation (3), encourage appreciation. 
+
+## Carry Trade
+
+The **UIRP** 
 
 
 
