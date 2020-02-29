@@ -2275,11 +2275,61 @@ However, volatility and perceived risk can cause these positions to unwind fast.
 
 Carry trades use considerable leverage, usually 50 to 200 times. 
 
-Use of a volatility filter
+> Use of a volatility filter: 
+>
+> If an average level foreign exchange volatility falls below some threshold, open carry trade positions.
+>
+> If  volatility rise above some threshold, close carry trade positions.
 
+Use of PPP:
 
+Avoid the risk of depreciation: Set an upper PPP band for long position in high yield currency. 
 
+Avoid the risk of appreciation: Lower PPP band for short position in low yield currency.
 
+Policy perspective: Concern that carry trade activities may be generating foreign exchange rate misalignments. 
+
+Unwinding a large carry trade could cause a financial crisis. 
+
+### Example
+
+|      | 1-yr Libor | Pair            | 1-yr later |
+| ---- | ---------- | --------------- | ---------- |
+| JPY  | 0.1%       | JPY/USD =81.30  | 80         |
+| AUD  | 4.5%       | USD/AUD = 1.075 | 1.0803     |
+
+From the table, we know that AUD is depreciating and JPY is appreciating. 
+
+Borrow in Yen, invest in 1-year AUD Libor
+
+After 1 year, the all-in return is 
+$$
+JPY/AUD = JPY/USD \times USD/AUD \\
+Originally: 81.3\times 1.0750 = 87.4\\
+One-year-later: 80\times 1.0803 = 86.42
+$$
+The all-in return is then calculated as 
+
+The one AUD we invest, at the end of the year will be $1+4.5\% = 1.045$
+
+The return is 
+$$
+\frac{86.42}{87.4} \times 1.0450 - 0.001
+$$
+Where can be generalized as
+$$
+\frac{\text{original exchange rate}}{\text{end exchange rate}}\times(1+\text{invested currency risk free yield})\\-\text{borrowed currency risk free rate}
+$$
+
+## Balance of Payments Impacts
+
+Sum of all recorded transactions in the traded goods, services, income and net transfer payments, is called the  **current asset.**
+
+Persistent current account deficits $\Rarr$ Currency Depreciation Over time
+
+Persisitent current account surplus $\Rarr$ Currency Appreciation Over time
+
+Capital Account = Current Account 
 
 
 
