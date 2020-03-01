@@ -2323,13 +2323,31 @@ $$
 
 ## Balance of Payments Impacts
 
-Sum of all recorded transactions in the traded goods, services, income and net transfer payments, is called the  **current asset.**
+Sum of all recorded transactions in the traded goods, services, income and net transfer payments, is called the  **current account.**
+
+Assuming a country has a free exchange rate:
 
 Persistent current account deficits $\Rarr$ Currency Depreciation Over time
 
 Persisitent current account surplus $\Rarr$ Currency Appreciation Over time
 
-Capital Account = Current Account 
+$|\text{Capital Account}| = |\text{Current Account}|$  
+
+**Financial flows, investment or financing decisions are usually the dominant factor in determining exchange rate movements in the short to intermediate term.** 
+
+Why?
+
+Prices of real goods/services tend to adjust much more slowly while financial asset adjust quickly. 
+
+Production of real good and services takes time while liquid financial markets instaneous redirection of fiancial flows. 
+
+Current spending/production decisions reflect only purchases/sales of current production while investment/financing decisions reflect not only the financing of current expenditures but also reallocatioon of existing portfolios. 
+
+Expected exchange rate movements can induce very large short-term capital flows. Actual foreign exchange rate very sensitive to the currency views held by the owners/managers of liquid assets. 
+
+
+
+
 
 
 
