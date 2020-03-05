@@ -2337,22 +2337,65 @@ $|\text{Capital Account}| = |\text{Current Account}|$
 
 Why?
 
-Prices of real goods/services tend to adjust much more slowly while financial asset adjust quickly. 
+* Prices of real goods/services tend to adjust much more slowly while financial asset adjust quickly. 
 
-Production of real good and services takes time while liquid financial markets instaneous redirection of fiancial flows. 
+* Production of real good and services takes time while liquid financial markets instaneous redirection of fiancial flows. 
 
-Current spending/production decisions reflect only purchases/sales of current production while investment/financing decisions reflect not only the financing of current expenditures but also reallocatioon of existing portfolios. 
+* Current spending/production decisions reflect only purchases/sales of current production while investment/financing decisions reflect not only the financing of current expenditures but also reallocatioon of existing portfolios. 
 
-Expected exchange rate movements can induce very large short-term capital flows. Actual foreign exchange rate very sensitive to the currency views held by the owners/managers of liquid assets. 
+* Expected exchange rate movements can induce very large short-term capital flows. Actual foreign exchange rate very sensitive to the currency views held by the owners/managers of liquid assets. 
 
+### Real interest rate differentials, capital flows and the foreign exchange rate
 
+$$
+q_{f/d} =\bar{q}_{f/d}  +[(r_d-r_f)-(\phi_d-\phi_f)]
+$$
 
+Where $q_{f/d}$ is the real foreign exchange rate, $\bar{q}_{f/d}$ is the real long-run equilibrium rate. $r_d -r_f$ is the real interest rate differential while $\phi_d-\phi_f$ as the perceived sustainability of the country's external balances. 
 
+In short, capital responds to the interest rate differentials, risk premia and expectations which is the foreign exchange rate movements. 
 
+Interest rate differentials, carry trades, and foreign exchange rates. 
 
+The above formula can be further break into
+$$
+q_{f/d} =\bar{q}_{f/d}  +[(i_d-i_f)-(\pi_H^e-\pi^e_L)-(\phi_H-\phi_L)]
+$$
 
+Where the $i_d-i_f$ is the yield spreadwidens and $\pi_H-\pi_L$ is the inflation expectations spread tightens, and $\phi_H-\phi_L$   is the risk premia Spread Tightens. 
 
+ Howerver, inflation tightens and risk premia spread tightens are not observable.
 
+Combat inflation by raisiong interest rates (Monetary Policy)
+
+Policies of lower government debt, financial market liberalization, removal of capital flow restrictions, attraction of FDI. 
+
+Carry trade profitability  = f(monetory, fiscal, economic policies).
+
+Euqity market trends has no stable relationship with foreign exchange rates.
+
+## Monetary and Fiscal Policies
+
+### Mudell-Fleming Model
+
+Expansionary (increase aggregate demand and output)
+
+* Monetary Policy:
+	* Reduce Interest rates
+	* Increase investment and consumption spending.
+	* Leads to capital outflows, downward pressure on foreign exchange rate.
+	* For a fixed foreign exchange rate:
+		* Central banks will have to buy its own currency to deplete foreign exchange reserves. (To support currency)
+		* This will tightens domestic credit conditions, while offsets intended excpansionary policy. 
+* Fiscal Policy
+	* Increase spending and lower taxes.
+	* Exerts upward pressure on interest rates (larger deficits need to be financed)
+	* Leads to capital inflows, upward pressure on foreign exchange rates. 
+	* For a fixed exchange rate:
+		* Central bank will have to sell its currency and build reserves. 
+		* This expands domestic money supply. Reinforces expansionary policy.
+
+The more responsive capital flows are to interest rate differentials, the larger foreign exchange depreciation. 
 
 
 
