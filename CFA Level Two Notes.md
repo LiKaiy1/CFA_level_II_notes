@@ -2397,7 +2397,73 @@ Expansionary (increase aggregate demand and output)
 
 The more responsive capital flows are to interest rate differentials, the larger foreign exchange depreciation. 
 
+If a domestic policymakers try to 
 
+a) Pursue independent monetary policy
+
+b) Permit capital to flow freely across national borders
+
+c) Defend foreign exchange rates
+
+**All 3 cannot be satisfied at same time**. Low capital mobility effects primarily through trade flows. **Capital control would be required for a) and c) to be satisified.**
+
+Expansionary Fiscal Policy: Government is spending more money. Upward pressure on interest rate.
+
+Restrictive Monetary Policy: Central bank is raising interest rate. 
+
+#### For a high capital mobility
+
+|                            | Expansionary Monetary Policy  | Restrictive Monetary Policy                            |
+| -------------------------- | ----------------------------- | ------------------------------------------------------ |
+| Expansionary Fiscal Policy |                               | Interest rate going up. Domestic Currency Appreciates. |
+| Restrictive Fiscal Policy  | Domestic currency depreciates |                                                        |
+
+#### For a low capital mobility
+
+|                            | Expansionary Monetary Policy                                 | Restrictive Monetary Policy                                  |
+| -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Expansionary Fiscal Policy | Domestic currency depreciates. Trade balance depreciate because import increase. |                                                              |
+| Restrictive Fiscal Policy  |                                                              | Interest rate going up. Domestic Currency Appreciates. Trade blance appreciate because import decrease. |
+
+### The monetary approach
+
+Mundell Fleming approach:
+
+Monetary policy $\rarr$ interest rates $\rarr$ foreign exchange rates
+
+Monetary approach:
+
+Monetary policy $\rarr$ price level rate of inflation $\rarr$ foreign exchange rate.
+
+As per quantity theory of money $\Rarr$ money supply changes are the primary determinant of price level changes.  
+
+It assumes PPP holds $\Rarr$ a money supply induced increase in domestic price 
+
+Shortcoming assumption of PPP holding of all times. Monetary approach may not realistically explain policy effects on foreign exchange rates.
+
+### Dornbush overshooting model
+
+Prices exhibit limited flexibility in the short run, fully flexible in the long run. 
+
+In the short run, real money supply goes up, interest rate goes down, capital outflow, and then foreign exchange rate goes down but overshoots on a very short basis. 
+
+### Interventions
+
+There are interventions to push capitals outside domestic economy, and there might be interventions to pull capitals to the foreign economy.
+
+#### Push
+
+* Take a greater global allocation (Portfolio approach)
+* Low interest rates
+
+#### Pull
+
+* Flexible currency exchange rates.
+* Low debt levels.
+* High interest rate
+* Low debt levels
+
+**There are certain risks associate with pull interventions. To avoid excessive surges of capital inflows, typically followed by huge outflows. Use of a) Capital controls b) foreign exchange market intervention.**
 
 
 
