@@ -2465,6 +2465,17 @@ There are interventions to push capitals outside domestic economy, and there mig
 
 **There are certain risks associate with pull interventions. To avoid excessive surges of capital inflows, typically followed by huge outflows. Use of a) Capital controls b) foreign exchange market intervention.**
 
+### Currency Crises-Warning Signs
+
+1. $q_{f/d} $ (real exchange rate) substantially higher than its mean level during peachful periods.
+2. Forexign exchange reserves decline peciptiously as the crisis approaches.
+3. Some deterioration in terms of trade
+4. CPI significantly higher pre-crisis vs tranquil periods.
+5. $M_2/Bank$ reserves tends to rise in the 24-month period lead up to a crisis. 
+6. Broad money growth (nominal and real) rises sharply in the 2 years leading up to a crisis.
+7. Nonmial private credit growth sharply pre-crisis. 
+8. Typically some form of equity market boom. 
+
 
 
 
