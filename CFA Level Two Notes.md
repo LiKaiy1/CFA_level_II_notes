@@ -2476,6 +2476,87 @@ There are interventions to push capitals outside domestic economy, and there mig
 7. Nonmial private credit growth sharply pre-crisis. 
 8. Typically some form of equity market boom. 
 
+## Growth Factors
+
+Factors $\Rarr$ economic growth $\Rarr$  earnings expectations $\Rarr $ equity prices.
+
+Factors $\Rarr$ economic growth$\Rarr$Growth rate of real incomes $ \Rarr$  real interest rate $\Rarr $  real returns. 
+
+Economic growth $\Rarr $ Actual $-$ Potential (Long-run aggregate output, growth rate of potential GDP).
+
+### Comparing Economic Performance
+
+The percentage change in real GDP, measures how rapidly the economy is expanding.
+
+The percentage change of real GDP per capita, reflects the anverage standard of living. 
+
+To compare and convert each country's real GDP to a common currency, typically USD at a **PPP exchange rate**. 
+
+Why not use market foreign exchange rates?
+
+* Too volatile
+* Foreign exchange rates reflect **traded** goods and services and financial flows, while some goods and services are not traded.
+
+Developed (High GDP/Capita) vs Developing (Low GDP/Capita)
+
+#### Savings and Investment
+
+Low Savings $\Rarr $ Low investment $\Rarr $ Slow GDP growth $\Rarr $ persistently low incomes. 
+
+A low income will feedback to low savings. To break this circle, is to increase investment even with low savings. 
+
+#### Financial Markets and Intermediaries 
+
+Promote growth by 
+
+* Allocating capital to projects. 
+* Encouraging savings by creating investment products. 
+* Overcoming credit constraints.
+
+Countries with better functioning financial markets and intermediaries grow at a faster rate. 
+
+#### Other growth factors
+
+Political stability, rule of law, and property rights, education and health care systems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
