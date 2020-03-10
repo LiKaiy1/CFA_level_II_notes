@@ -2517,7 +2517,29 @@ Countries with better functioning financial markets and intermediaries grow at a
 
 #### Other growth factors
 
-Political stability, rule of law, and property rights, education and health care systems.
+Political stability, rule of law, and property rights, education and health care systems,  tax and regulatory system, free trade, and unrestricted capital flows.
+
+## Stock Market and Economy
+
+**Potential GDP places a limit on how fast an economy can grow.** 
+
+Question: Is earnings growth also limited by growth rate of potential GDP?
+
+For earnings growth > Potential GDP growth,  
+
+the ratio of  $\frac{\text{Corporate Profit}}{GDP}$ must be increasing.
+$$
+P = GDP(E/GDP)(P/E)
+$$
+Where we have
+
+$P$ is the aggregate value of stock market. *E* is aggregate earnings.
+
+$E/GDP$ is expressed as log rates of change over time horizon T. 
+$$
+(1/T)\%\Delta P =(1/T)\%\Delta  GDP+ (1/T)\%\Delta (E/GDP)+ (1/T)\%\Delta (P/E)
+$$
+In the long run, the same factors that limit economic growth, also limit aggregate earnings growth. 
 
 
 
