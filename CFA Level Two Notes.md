@@ -2539,15 +2539,58 @@ $E/GDP$ is expressed as log rates of change over time horizon T.
 $$
 (1/T)\%\Delta P =(1/T)\%\Delta  GDP+ (1/T)\%\Delta (E/GDP)+ (1/T)\%\Delta (P/E)
 $$
-In the long run, the same factors that limit economic growth, also limit aggregate earnings growth. 
+In the long run, the same factors that limit economic growth, also limit aggregate earnings growth.  
 
+Growth rate of potential GDP is the determinant of level of real interest rates. 
 
+For $(y-y^*)$ , as $y^* \uarr$, inflationary pressure decrease even as y increases. Thus higher incomes require higher rates to induce savings. 
 
+Also, higher g in $y^*$ improves the general credit quality of issuers. 
 
+($y^*$ is the potential GDP).
 
+## Determinants of Economic Growth
 
+### Simple Production Function
 
+$$
+y = A\cdot F(K,L)
+$$
 
+Where K is the capital and L is labor, and A is a scale factor known as the **total factor productivity.**
+
+#### Cobb-Douglos Production Function
+
+$$
+F(K,L) = K^{\alpha}L^{1-\alpha} , 0 < \alpha <1
+$$
+
+Factors of production are paid their marginal product. 
+
+Profit max requires: MPK = rental price of capital, and MPL = real wage rate. 
+
+#### Derivation
+
+$$
+MPK = \frac{\delta y}{\delta K} = \alpha AK^{\alpha-1}L^{1-\alpha}=r\\
+MPL = \frac{\delta y}{\delta L} = (1-\alpha) AK^{\alpha}L^{-\alpha}=w_r\\
+$$
+
+where $w_r$ is the real wage rate. 
+
+In other words, $\alpha$ is the share of GDP paid out to the suppliers of capital. 
+
+#### Properties
+
+* Constant return to scale: Double input, double output.
+
+* Capital-to-labor ratio: $y/L = AF(K/L, L/L) = AF(K/L,1)$ . The amount of goods a worker can produce depends on the amount of capital for each worker (K/L), TFP (A) and the share of capital in GDP. 
+
+* Diminishing marginal productivity: The extra output obtained from each additional unit of input will decline. A $\alpha$  close to zero means diminishing marginal returns to capital is very significant. 
+
+* An increase in K/L reflects rising investment stops when MPK = r.
+
+	
 
 
 
