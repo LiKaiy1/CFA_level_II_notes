@@ -2583,14 +2583,62 @@ In other words, $\alpha$ is the share of GDP paid out to the suppliers of capita
 #### Properties
 
 * Constant return to scale: Double input, double output.
-
 * Capital-to-labor ratio: $y/L = AF(K/L, L/L) = AF(K/L,1)$ . The amount of goods a worker can produce depends on the amount of capital for each worker (K/L), TFP (A) and the share of capital in GDP. 
-
 * Diminishing marginal productivity: The extra output obtained from each additional unit of input will decline. A $\alpha$  close to zero means diminishing marginal returns to capital is very significant. 
-
 * An increase in K/L reflects rising investment stops when MPK = r.
+* Capital Deepenings:  the capital per worker is increasing in the economy.
 
-	
+#### Example
+
+>Country A
+>
+>K/L = $100,000
+>
+>Country B
+>
+>K/L = $5000
+>
+>What effect on growth rate of potential GDP of 
+>
+>* Increase Investment in both countries. Capital deepenings:
+>	* A smaller effect for A. 
+>	* And a larger effect for B. 
+>* Increase University reasearch in both countries. 
+>	* Likely impact on TFP: A-raise potential GDP, B-raise potential GDP
+>* Eliminate restrictions on foreign investment for country B
+>	* I increase, raise potential GDP for country B.
+
+### Growth Accounting
+
+Growth accounting equation is used to measure potential GDP. 
+$$
+\frac{\Delta y}{y} = \frac{\Delta A}{A} +\alpha \frac{\Delta K}{K}+(1-\alpha)\frac{\Delta L}{L}
+$$
+Where we can state that 
+
+the growth rate of output = rate of technological change+ growth rate of capital + growth rate of labour. 
+
+Increase in growth rate of labor will have a larger impact than capital. 
+
+y, L and K: data are avaliable from GDP accounts. A must be estimayed.
+
+To estimate potential GDP, we need 
+
+trend estimate for labor and capital. A is treated as exogeneous. 
+
+Alternative method: 
+
+Growth rate  in potential GDP: long-term growth rate of labor force, and a long-term growth rate in labor productivity. 
+
+Further extension:
+$$
+y = A \cdot F(N,L,H,K_{IT},K_{NT},K_P)
+$$
+where N is natural resources, L is labour, quality of labour, $K_{ICT}$ is ICT capital (Information and Communication Technology). $K_{NT}$ is non-ICT capital, and $K_P$ is the public capital. 
+
+
+
+
 
 
 
