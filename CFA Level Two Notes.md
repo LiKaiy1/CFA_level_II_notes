@@ -2620,13 +2620,15 @@ the growth rate of output = rate of technological change+ growth rate of capital
 
 Increase in growth rate of labor will have a larger impact than capital. 
 
-y, L and K: data are avaliable from GDP accounts. A must be estimayed.
+y, L and K: data are avaliable from GDP accounts. A must be estimated.
 
 To estimate potential GDP, we need 
 
 trend estimate for labor and capital. A is treated as exogeneous. 
 
 Alternative method: 
+
+growth rate in potential GDP = long-term growth rate of labour force + long-term in labour growth rate in labour productivity
 
 Growth rate  in potential GDP: long-term growth rate of labor force, and a long-term growth rate in labor productivity. 
 
@@ -2635,6 +2637,29 @@ $$
 y = A \cdot F(N,L,H,K_{IT},K_{NT},K_P)
 $$
 where N is natural resources, L is labour, quality of labour, $K_{ICT}$ is ICT capital (Information and Communication Technology). $K_{NT}$ is non-ICT capital, and $K_P$ is the public capital. 
+
+Access to resources is important. 
+
+**For natural resources, access to these resources, such as trade, is more important than the ownership or production of natural resources**. 
+
+> The Curse of Natural Resource:
+>
+> Simply fail to develope the economic institutions to support growth.
+>
+> Strong export demand for their resources may drive up the currency and make other sectors uncompetitive. 
+
+Labor supply: Labour force = working age population that is either employed or avaliable for work. 
+
+Depends on: 
+
+* Population growth
+* Labor force participation
+* Average hours worked
+* Net immigration: Boost potential GDP. However, if a country is running a persistent output gap, increased immigration will make it worse and increase unemployment. 
+
+
+
+
 
 
 
