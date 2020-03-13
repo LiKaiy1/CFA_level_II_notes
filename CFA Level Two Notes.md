@@ -2657,13 +2657,11 @@ Depends on:
 * Average hours worked
 * Net immigration: Boost potential GDP. However, if a country is running a persistent output gap, increased immigration will make it worse and increase unemployment. 
 
+Issues: 
 
+Techonological advancement and net immigration increases potential GDP but may also potentially increase unemployment. 
 
-
-
-
-
-
+###  Growth Theories
 
 
 
