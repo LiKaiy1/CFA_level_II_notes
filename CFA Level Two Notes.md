@@ -1746,7 +1746,7 @@ $$
 
 Let $u_i $ as the investors' subjective expectation of the active return on asset i.  
 
-![image-20200209163022669](/Users/likaiyi/Documents/CFA_Level2//image-20200209163022669.png)
+![image-20200209163022669](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes/image-20200209163022669.png)
 
 * $u_i$ is the forcasted active returns.
 * $R_{A_i}$ is the realized active returns.
@@ -2663,9 +2663,11 @@ Techonological advancement and net immigration increases potential GDP but may a
 
 ###  Growth Theories
 
+#### Classical  Model
 
+$y = F(L,land)$
 
-
+Growing population, limited resources, leads to the growing population. When income/per capita > subsistence level. 
 
 
 
