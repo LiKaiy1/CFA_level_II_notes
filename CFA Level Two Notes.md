@@ -2667,24 +2667,65 @@ Techonological advancement and net immigration increases potential GDP but may a
 
 $y = F(L,land)$
 
-Growing population, limited resources, leads to the growing population. When income/per capita > subsistence level. 
+Growing population, limited resources, leads to the growing population. 
 
+When income/per capita > subsistence level: technological progress (labour productivity) + land expansion = higher population growth. 
 
+But this is **temporary. **
 
+Diminishing marginal returns + higher populations $\Rarr$ incom / per capita falls back o subsitence level. 
 
+The failurre of the classical model:
 
+* as income/per capita increases, population growth slows, not accelerates.
+* growth rate of techonological progress > rate of diminishing returns
 
+#### Neo-classical growth model (Solow growth model)
 
+$$
+y = AF(K,L) = AK^\alpha L^{1-\alpha}
+$$
 
+GDP gowth rate per capita is related to three factors:
 
+* Rate of tech change
+* pop growth
+* Savings/Investment rate
 
+Equilibrium state = steady state rate of growth
 
+Output per worker: y = Y/L
 
+Capital per worker: k = K/L
 
+Rate of change of k: $\frac{\Delta k}{k} = \frac{\Delta K}{K} - \frac{\Delta L}{L}$ 
 
+Rate of change of y:  $\frac{\Delta y}{y} = \frac{\Delta Y}{Y} - \frac{\Delta L}{L}$
 
+What is $\Delta K$:
 
+$K_{t+1} = K_t +I- \delta$ 
 
+K increases by I and Decreases by depreciation
+$$
+I = sy - \delta K
+$$
+where s is the saving rate and $\delta$ is the depreciation rate. 
+
+And therefore 
+$$
+\Delta K - sY - \delta K
+$$
+Then we have
+$$
+\frac{\Delta k}{k} = \frac{\Delta K}{K} - \frac{\Delta L}{L}\\
+  = \frac{sy}{K} - \delta - \frac{\Delta L}{L}
+$$
+**In the steady state: growth rate of capital per worker = growth rate of output per worker**
+$$
+\frac{\Delta k}{k} =  \frac{\Delta y}{y} = \frac{\Delta A}{A} +\alpha\frac{\delta k }{k}\\
+\frac{\}{}
+$$
 
 
 
