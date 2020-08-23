@@ -2726,7 +2726,7 @@ $$
 \frac{\Delta k}{k} =  \frac{\Delta y}{y} = \frac{\Delta A}{A} +\alpha\frac{\delta k }{k}\\
 \frac{\}{}
 $$
-
+x`
 
 
 
