@@ -348,7 +348,7 @@ Even we have an upward sloping spot curve and we assume that the short-term spot
 
 ### Segmented Market Theory
 
-![image-20200108172146280](/Users/likaiyi/Documents/CFA_Level2//image-20200108172146280.png)
+![image-20200108172146280](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes/image-20200108172146280.png)
 
 Each maturity sector can be thought of as a segmented market in which yields are determined independently from yields in other maturity segments.
 
