@@ -2724,9 +2724,37 @@ $$
 **In the steady state: growth rate of capital per worker = growth rate of output per worker**
 $$
 \frac{\Delta k}{k} =  \frac{\Delta y}{y} = \frac{\Delta A}{A} +\alpha\frac{\delta k }{k}\\
-\frac{\}{}
+\frac{\Delta k}{k} - \alpha \frac{\Delta k}{k} = \frac{\Delta A}{A}\\
+\frac{\Delta y}{y} = \frac{\Delta k}{k} = \frac{\Delta A}{A}\cdot \frac{1}{1-\alpha}
 $$
-x`
+Let $\theta$ be the growth rate of total factor production. $\theta = \frac{\Delta A}{A}$
+
+Then we have 
+$$
+\frac{\Delta y}{y} = \frac{\theta}{1-\alpha}
+$$
+
+
+which is **the growth rate of  output per capita. **
+
+The last step is to substitute $\frac{\theta}{1-\alpha}$ into  $\frac{\Delta k}{k} = \frac{sY}{K} - \delta  - \frac{\Delta L}{L}$
+
+Then we would have 
+$$
+\frac{Y}{K} = \frac{1}{S} [(\frac{\theta 
+}{1-\alpha})+\delta+\frac{\Delta L}{L}]
+$$
+So in a steady state, $\frac{Y}{K} $ is constant. k and  y are both growing at the same speed $\frac{\theta}{1-\alpha}$
+
+
+
+
+
+
+
+
+
+
 
 
 
