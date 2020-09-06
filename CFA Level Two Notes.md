@@ -2,8 +2,6 @@
 
 *Kaiyi Li*
 
-*NYU Shanghai Class of 2019*
-
 *NYU Stern Class of 2020*
 
 *kaiyi.li@stern.nyu.edu*
@@ -2748,11 +2746,59 @@ So in a steady state, $\frac{Y}{K} $ is constant. k and  y are both growing at t
 
 
 
+In the steady state, savings = investment, and therefore
+$$
+S_y = [(\frac{\theta}{1-\alpha})+\delta +n ]k
+$$
+where $S_y$ is savings per worker. 
 
+$[(\frac{\theta}{1-\alpha})+\delta +n ]$  is the invesntment required to keep K constant. 
 
+$n$ is the work force. 
 
+#### Implications
 
+1. Capital Accumulation
+	* affects level of output, not growth rate
+	* economies move towards a steady state
+	* does not depend on a capital accumulation
+2. Deepening vs Technology
+	* growth slows as capital is added
+	* capital deepenng limits out
+	* without increase in TFP, growth of y will slow. 
+3. Convergence
+	* Growth rate of developing countries should exceed that of developed countries
+	* Per capita incomes should converge
+4. Effect of S(Savings) on growth 
+	* S increases growth rate until a steady state is reached
+	* in steady state, growth does not depend on S
+	* countries with higher saving rates, have  higher y, k and Total Factor Production. 
 
+#### Endogenous Growth Theory
+
+* Technological progress is not exogenous 
+* Economy does not necessarily converge to a steady state of growth. 
+* No diminishing marginal returns to capital for the economy as a whole. 
+* Increasing savings permanently increase rate of economc growth. Definition of capital is broadened o include knowledge and research and development ideas. 
+* The model is 
+
+$$
+y_c = f(k_c)=Ck_c
+$$
+
+$y_c$ output per woker is proportional to capital per worker. 
+
+C is the constant marginal production per capital (MPK). 
+
+If private sector under-invest in research and development, direct government spending and or research development tax breaks and subsidies may correct the situation. 
+
+#### Convergnce
+
+* Absolute convergnce:developing countries will eventually catch up with developed countries. 
+* Conditional convergence: convergence is conditional on instituions and certain input fators being similar
+* Route to convergence: 
+	* Capital accumulation and capital deepening
+	* imitation and adoption of technology
 
 
 
