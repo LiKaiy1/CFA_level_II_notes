@@ -2800,6 +2800,64 @@ If private sector under-invest in research and development, direct government sp
 	* Capital accumulation and capital deepening
 	* imitation and adoption of technology
 
+## Economics of Regulation 
+
+### Economic Rationale
+
+Regulations are necessary since market solutions are not adequate for all situations. (Market Failure)
+
+### Fundamental theorem of welfare economics 
+
+**A competitive equilibrium alloctaions are pareto optimal.** 
+
+Which means **Everyone is as well off as they can get for a given allocation. ** 
+
+Also called **Economics efficiency. **
+
+But because there are **information frictions** and **externalities** disrupts economic efficiency. 
+
+**Externalities can be both positive and negative. **
+
+Also need regulation to prevent weak competition and provide social objectives.
+
+### Regulations of Financial Markets
+
+* Protection of investors
+* Creating confidence in markets
+* Enhancing capital formation
+* Ensuring safety and soundness of financial institutions
+* Securities registration requirenments 
+* Disclosure requiremnents
+
+### Regulation of Commerce
+
+* Role of government is to promoting comerce locally, nationally and globally. 
+* Trade agreements
+* Establishing the legal framework for contracting 
+* Labour markets 
+* Immigration 
+* Safety(drugs,, etc)
+* Recognition and protection of intellectual property. 
+* Technical standards. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
