@@ -41,7 +41,7 @@ __This note is created at *17:00, Wednesday, Janauary 1st, 2020* by Kaiyi Li. Th
 	- [ ] Quiz
 	- [ ] Practice Problems
 - [ ] **Economics**
-	- [ ] Course Notes
+	- [x] Course Notes
 	- [ ] Quiz
 	- [ ] Practice Problems
 
@@ -2836,15 +2836,29 @@ Also need regulation to prevent weak competition and provide social objectives.
 * Establishing the legal framework for contracting 
 * Labour markets 
 * Immigration 
-* Safety(drugs,, etc)
+* Safety(drugs, etc)
 * Recognition and protection of intellectual property. 
 * Technical standards. 
 
+### Regulators 
 
+There are public regulators and private regulators. Public regulator is government and private regulators are industry regulators. 
 
+**SRO, self-regulatory organizations has been given the authority and enforcement power by the government. While industry self-regulatory bodies do not have the force of law.**
 
+Regulatory tools: should be consistent with maintaing a stable regulatory environment. 
 
+* Price mechanism: taxes, subsidies, floor and ceiling prices. 
+* Regulatory  mandates, restrictions on behaviour
+* Support private entity
 
+#### Bnefit and cost 
+
+Regulatory Burden referes to the costs of regulation for the regulated entity. 
+
+**Net regulatory burden = private costs of regulation - private benefits of regulation.**
+
+Impact on revenues, impact on costs and higher business risk. 
 
 
 
