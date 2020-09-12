@@ -2852,7 +2852,7 @@ Regulatory tools: should be consistent with maintaing a stable regulatory enviro
 * Regulatory  mandates, restrictions on behaviour
 * Support private entity
 
-#### Bnefit and cost 
+#### Benefit and cost 
 
 Regulatory Burden referes to the costs of regulation for the regulated entity. 
 
@@ -2860,6 +2860,63 @@ Regulatory Burden referes to the costs of regulation for the regulated entity.
 
 Impact on revenues, impact on costs and higher business risk. 
 
+# Derivatives
+
+## Forward and Futures Prices
+
+### Arbitrage Free Pricing Valuation 
+
+> Assumptions for arbitrage-free pricing valution
+>
+> * Replicating instruments are identifiable and investable 
+>
+> * Market frictions are ignored, short selling is allowed. 
+> * Borrowing and lending are available at a known risk-free rate. 
+
+S rerpresenting underlying 
+
+F representing forward and f representing futures. 
+
+V is the value of forward and v is the value of futures 
+
+***At the contract initiation is the value of a futures or fowards contract = 0.***
+
+#### Future value
+
+Because futures are marked to market, therefore 
+
+$v_t = f_t - f_{t-1}$ This is before everyday settlement. 
+
+After settlement, $v_t = 0$
+
+Assuming no underlying cash flows, 
+
+$F_0 = S_0e^{rt} $  continous compounding. 
+
+$F_0 = S_0(1+r)^t$ periodic compounding. 
+
+Example:
+
+>$S_0 = 100$
+>
+>$r_f = 5%$
+>
+>T = 1 yr
+>$$
+>1. \text{Borrow \$100 for one year.}\\
+>2. \text{Buy} S_0\\
+>3. \text{Sell} F_0\\
+>4. \text{Payback loan of } S_0e^{rt} \text{ at Time T}
+>$$
+
+**The quoted forward price does not directly reflect expectations of future underlying prices, only the cost of carry.** 
+
+The value of the contract is
+$$
+V_t = \frac{F_t - F_0}{(1+r)^{T-t}}\\
+or \\
+V_t = S_t - \frac{F_0}{(1+r)^{T-t}}
+$$
 
 
 
