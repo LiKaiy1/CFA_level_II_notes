@@ -2911,13 +2911,57 @@ Example:
 
 **The quoted forward price does not directly reflect expectations of future underlying prices, only the cost of carry.** 
 
-The value of the contract is
+The value of the **Forward** contract is
 $$
 V_t = \frac{F_t - F_0}{(1+r)^{T-t}}\\
 or \\
 V_t = S_t - \frac{F_0}{(1+r)^{T-t}}
 $$
 
+
+When there are underlying cash flows.
+
+Let $\gamma$ be the benefit of carrying and $\theta$ be the cost of carry. 
+$$
+F_0 = [S_0 + PV(\theta) - PV(\gamma)](1+r)^T
+$$
+When the underlying with known yield
+
+ Assuming continuous yield 
+$$
+F_0 = S_0e^{(r_e + \theta - \gamma)T}
+$$
+**Note it is plus cost minus benefit.** 
+
+#### Equities Forward
+
+> Example
+>
+> Suppose we bought a one-year forward contract at 102 and there are now three months to expiration. The underlying is currently trading for 110, and interest rates are 5% on an annual compounding basis. If there are no other carry cash flows, the forward value of the existing contract will be closest to:
+>
+> 
+
+
+
+#### Interest rate forward
+
+Underlying is a forward interest rate on a deposit. 
+
+Pay fixed received floating is a long position on a forward contract.
+
+Pay floating received fixed is a short position on a forward contract. 
+
+No exchange of the notional amount. 
+
+FRA is the fixed interest rate that eliminates arbitrage. 
+
+A $3 \times 9$ FRA is the rate on a deposit that begins in 3 months and lasts for 6 months. 
+
+>Example
+>
+>In 30 days, a UK company expects to make a bank deposit of £10,000,000 for a period of 90 days at 90-day Libor set 30 days from today. The company is concerned about a possible decrease in interest rates. Its financial adviser suggests that it negotiates today, at Time 0, a 1 × 4 FRA, and instrument that expires in 30 days and is based on 90-day Libor. The company enters into a £10,000,000 notional amount 1 × 4 receive-fixed FRA that is advanced set, advanced settled. The appropriate discount rate for the FRA settlement cash flows is 0.40%. After 30 days, 90-day Libor in British pounds is 0.55%.
+>
+>
 
 
 
