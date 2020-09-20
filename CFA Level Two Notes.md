@@ -2937,11 +2937,59 @@ $$
 
 > Example
 >
-> Suppose we bought a one-year forward contract at 102 and there are now three months to expiration. The underlying is currently trading for 110, and interest rates are 5% on an annual compounding basis. If there are no other carry cash flows, the forward value of the existing contract will be closest to:
+> The continuously compounded dividend yield on the EURO STOXX 50 is 3%, and the current stock index level is 3,500. The continuously compounded annual interest rate is 0.15%. Based on the carry arbitrage model, the three-month futures price will be *closest* to:
 >
-> 
+> Solution:
+>
+> Continuosly compounded dividend yield  3%
+>
+> $\gamma = 3\% $ 
+>
+> Current stock index is at 3500 
+>
+> $S_0 = 3500$ 
+>
+> Continously compounded annual inter interest rate is 0.15%
+>
+> $r_c = 0.15\% $
+>
+> Three month future contract 
+>
+> T = 0.25
+>
+> So 
+>
+> $F_0 = S_0 e^{(r_c-\gamma)T} = 3500e^{(0.0015-0.03)0.25} = 3475.15$
+>
+> Suppose Nestle common stock is trading for CHF70 and pays a CHF2.20 dividend in one month. Further, assume the Swiss one-month risk-free rate is 1.0%, quoted on an annual compounding basis. Assume that the stock goes ex-dividend the same day the single stock forward contract expires. Thus, the single stock forward contract expires in one month.
+>
+> 2.20 is already the dividend in one month. 
+>
+> $F_0 = S_0 (1+r)^T - \gamma = 70(1.01)-2.02 = 67.858 $
 
 
+
+Another example about forward:
+
+>Suppose we bought a one-year forward contract at 102 and there are now three months to expiration. The underlying is currently trading for 110, and interest rates are 5% on an annual compounding basis. If there are no other carry cash flows, the forward value of the existing contract will be closest to:
+>
+>First, let's bring the forward contract to three month later, 
+>
+>$F_t = 110(1.05)^{0.25}  = 111.3499$
+>
+> Subtract the contract price we have $111.3499-102 = 9.3499$
+>
+>Then we discount it back three month to the current foward value of exisiting contract is $\frac{9.3499}{1.05^{0.25}} = 9.2365$
+>
+>Another way to deal with it is to bring the contract three month back
+>
+>$110-\frac{102}{1.05^{0.25}} = 9.2365$ 
+>
+>If a dividend payment is announced between the forward’s valuation and expiration dates, assuming the news announcement does not change the current underlying price, the forward value will most likely:
+>
+>**Decrease.**
+>
+>$S_0 + Cost - Benefit = F_0$
 
 #### Interest rate forward
 
