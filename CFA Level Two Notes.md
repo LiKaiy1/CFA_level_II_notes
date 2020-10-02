@@ -3005,11 +3005,344 @@ FRA is the fixed interest rate that eliminates arbitrage.
 
 A $3 \times 9$ FRA is the rate on a deposit that begins in 3 months and lasts for 6 months. 
 
->Example
->
+That implies the forward rate of $f(3,6)$ . 
+
+Receiving Floating
+$$
+\frac{Notional \ Amount(\text{Float rate} - \text{fixed rate})(days/360)}{1+\text{float rate(days/360)}}
+$$
+Receiving Fixed 
+$$
+\frac{Notional \ Amount(\text{Fixed rate} - \text{Floating rate})(days/360)}{1+\text{float rate(days/360)}}
+$$
+Example
+
 >In 30 days, a UK company expects to make a bank deposit of £10,000,000 for a period of 90 days at 90-day Libor set 30 days from today. The company is concerned about a possible decrease in interest rates. Its financial adviser suggests that it negotiates today, at Time 0, a 1 × 4 FRA, and instrument that expires in 30 days and is based on 90-day Libor. The company enters into a £10,000,000 notional amount 1 × 4 receive-fixed FRA that is advanced set, advanced settled. The appropriate discount rate for the FRA settlement cash flows is 0.40%. After 30 days, 90-day Libor in British pounds is 0.55%.
 >
+>Because we know that a 90-day libor is 0.55% after 30 days. 
 >
+>![image-20200927102258682](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20200927102258682.png)
+>
+>The interest actually paid at maturity on the UK company's bank deposit will be closest to?
+>
+>10,000,000 is going to deposit. And the cost of deposit (interest) is $10M(0.0055(90/360)) = 13750.$
+>
+>If the FRA is initially priced at 0.60%, the payment received to settle it will be closest to :
+>
+>Because we are receiving fixed and payfloating:
+>
+>The payment we need to settle it will be closest to :
+>$$
+>\frac{NA(fxrate-flrate)(90/360)}{1+0.004(90/360)} = 1248.75
+>$$
+>If the FRA was initially priced at 0.5%, the payment received to settle it will be closest to 
+>$$
+>\frac{10M(0.005-0055)(90/360) }{1+0.004(90/360)}
+>$$
+>If we know L(180) = 1.5% and L(270) = 1.75%, what is the FRA $3\times9$ ? 
+>
+>[1+0.175(270/260)] = [1+0.015(180/360)]*[1+x(90/360)]
+>
+>x = 2.233%
+
+
+
+Example
+
+>Suppose we entered a receive-floating 6x9 FRA at a rate of 0.86%, with
+> notional amount of C\$10,000,000 at Time 0. The six-month spot Canadian dollar (C​\$) Libor was 0.628%, and the nine-month C\$ Libor was 0.712%.
+> Also, assume the 6 x 9 FRA rate is quoted in the market at 0.86%. After 90 days have passed, the three-month C\$ Libor is 1.25% and the six-month C$ Libor is 1.35%.
+>
+>Assuming the appropriate discount rate is C$ Libor, the value of the original receive-floating 6 x 9 FRA will be closes to:
+>
+>First, we calculate the implied forward rate at t = 90
+>
+>L(90) = 1.25% while L(120) = 1.35%
+>$$
+>[\frac{1+0.0135(180/360)}{1+0.0125(90/360)}-1]\times4 = 0.0145
+>$$
+>Then we calculate the difference between implied rate and contract rate multiply the nontonal amount, which is the value of the contract.
+>$$
+>\frac{10M(0.0145-0.0086)90/360}{1+0.0135(180/360)} = 14651.10
+>$$
+
+#### Fixed income forwards
+
+Full Price = Net Price + accrued interest
+
+Fixed income futures contracts are based on a generic bond.
+
+**Fixed income futures contracts are based ona generic bond. And therefore underlying may not equal to deliverable.**
+
+The price to be paid to the short side on delivery is (quoted price $\times$ Conversion Factor+Accrued Interest)
+
+##### The cheapest-to-deliever bond 
+
+Example
+
+>Future contract closed at 93.25
+>
+>| PV(net price) | Conversion Factor |
+>| ------------- | ----------------- |
+>| 99.50         | 1.0382            |
+>| 143.5         | 1.5188            |
+>| 119.75        | 1.2615            |
+>
+>For the fist bond:
+>Cost to deliever is $99.5-93.25\times1.0382 = 2.69$
+>
+>For the second bond:
+>
+>Cost to deliever is $143.50-93.25\times1.5188 = 1.87$
+>
+>For the third bond:
+>
+>Cost to deliever is $119.75-93.25\times 1.2615 = 2.12$ 
+
+
+
+On day 0, we borrow money. 
+
+![image-20201002083805303](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20201002083805303.png)
+
+
+
+So on day 0, we owed
+$$
+[(S_0+AI)-\frac{I}{(1+r)^T}](1+r)^T
+$$
+Sell our bond at
+$$
+S_T = ?\\
+AI \text{Known Amount}
+$$
+So the future price is 
+$$
+F_0 =[(S_0+AI)-\frac{I}{(1+r)^T}](1+r)^T - AI
+$$
+Then we have the quoted future price is 
+$$
+QF_0 =  \frac{F_0}{CF}
+$$
+Example
+
+>![image-20201002105136956](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20201002105136956.png)
+>
+>Known: CTD = 12% Bond  Coupon is semi-annually
+>
+>PV = 120, CF = 1.4
+>
+>---------------------------------------
+>
+>We have 
+>$$
+>F_0 =[(S_0 +AI)-\frac{I}{(1+r)^t}](1+r)^T\\
+> = [(120+6 (60/182))- 6/(1.1)^{122/365}](1.1)^{270/365} = 124.651885\\
+> QF = F_0 / CF
+>$$
+
+#### Currency Fowards and Future
+
+If the $r_f = r$ then we have $F_0 = S_0$  if $r_f >r$ Then $F_{f/d} > S_{f/d}$
+
+Because 
+$$
+F_{f/d} = S_{f/d} \frac{(1+r_f)^T}{(1+r_d)^T}
+$$
+Example 
+
+Given 
+$$
+S_{GBP/EUR} = 0.792 \\
+r_{GBP} = 1\% \\
+r_{EUR} = 0.3\%\\
+T = 1yr
+$$
+We have 
+$$
+F_{GBP/EUR} = S_{GBP/EUR}\cdot \frac{(1+r_{GBP})^1}{(1+r_{EUR})^1}
+$$
+
+
+Example
+
+>A corporation sold €10,000,000 against a British pound forward at a forward rate of £0.8000 for €1 at Time 0. The current spot market at Time t is such that €1 is worth £0.7500, and the annually compounded risk-free rates are 0.80% for the British pound and 0.40% for the euro. Assume at Time t there are three months until the forward contract expiration.
+>
+>![image-20201002125813101](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20201002125813101.png)
+>
+>The spot rate at time t :
+>
+>$S_{GBP/EUR} = 0.75$
+>
+>Then we have the forward exchange rate at:
+>
+>$F_{GBP/EUR} = 0.75\frac{(1+0.008)^{3/12}}{(1+0.004)^{3/12}} = 0.7507$
+>
+>Value of the contract is 
+>$$
+>\frac{10M(0.8 - 0.7507)}{(1+0.008)^{3/12}}
+>$$
+
+
+
+## Swaps
+
+### Interest rate swaps 
+
+Since the $B_{fl} = 100$ at a reset date, solve for PMT to find the fixed rate. 
+$$
+1  = \frac{PMT}{1+r_1}+\frac{PMT}{(1+r_2)^2}+\cdots+\frac{PMT+1}{(1+r_n)^n}
+$$
+Zero rates for maturities. Let $DF_t = \frac{1}{(1+r)^T}$
+
+Since that 
+$$
+1 = PMT\cdot DF_1 + PMT \cdot DF_2+\cdots +PMT \cdot DF_n 
+$$
+Therefore 
+$$
+PMT = \frac{1-DT_n}{\sum DF}
+$$
+To assess the value of the swap contract, just calculate the value of its offset:
+
+A received fx pay float contract at time 0 has the same value of a receive floating pay fixed swap at time t. 
+
+The value of the swap contract at time t is 
+$$
+V_{Swap} = (r_{fixed_0} -r_{fixed_t}\sum DF \cdot NA )
+$$
+Given current libor we have 
+$$
+V_{swap}  = V_{fix_0} - V_{fix_t}\\
+ = (PMT_0 \cdot DF_1 + PMT_0 \cdot DF_2 + PMT_0 \cdot DF_3 + \cdots PMT_0 \cdot DF_n +DF_n)\\
+ - (PMT_1 \cdot DF_1 + PMT_1 \cdot DF_2 + PMT_1 \cdot DF_3 + \cdots PMT_1 \cdot DF_n +DF_n)\\
+ 
+$$
+Example
+
+>Two years ago, we entered into a swap for \$100M, 7 years receive fx, pay libor with annual resets, swap rate was 2%. And the swap rate at t = 2 is 1.2968
+>
+>| Maturity | Discount Factor |
+>| -------- | --------------- |
+>| 1        | 0.99099         |
+>| 2        | 0.977876        |
+>| 3        | 0.965136        |
+>| 4        | 0.951529        |
+>| 5        | 0.937467        |
+>
+>$V_{swap} = (r_{fx0} - r_{fxt})\sum DF \cdot NA$
+
+### Currency Swap
+
+The value of a currency swap is calculated as $V_{SWAP} = V_D - S_0V_F = 0$
+
+And at time t, $V_{SWAP} = V_D - S_t V_F$
+
+Example
+
+>US company wants \$100M AUD for 1 year. 
+>
+>Used 1 year currency swap with quarterly resets 
+>
+>AUD/USD  = 1.14 
+>
+>![image-20201002210106455](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20201002210106455.png)
+>
+>![image-20201002210144132](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20201002210144132.png)
+>
+>Because it is quartely settled
+>
+>Each quarter, US company gives $\frac{0.02769\cdot 100M}{4}$  \$AUDto Austrilia company. While AUD company pays $\frac{0.002497(100M/1.14)}{4}$  USD
+
+### Equity Swap
+
+Three types of equity returns
+
+* Pay fixed  $NA  (R_e - r_{fixed})$
+* Pay floating $NA(R_e - r_{floating})$
+* Pay equity $NA(R_{ea} - R_{eb})$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
