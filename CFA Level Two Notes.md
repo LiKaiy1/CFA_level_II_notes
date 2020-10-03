@@ -3262,6 +3262,85 @@ Three types of equity returns
 * Pay floating $NA(R_e - r_{floating})$
 * Pay equity $NA(R_{ea} - R_{eb})$
 
+## Valuation of Contingent Claims
+
+### Binomial Option Valuation Model
+
+#### Delta
+
+Delta is the change in option price to the change in stock price. 
+$$
+\Delta = \frac{C^+-C^-}{S^+-S^-}
+$$
+$\Delta $ is the number of shares. 
+
+Make up a portfolio that is same as a bond
+
+![image-20201003233953952](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20201003233953952.png)
+
+|                   | Payoffs             | Loan PMTs           |
+| ----------------- | ------------------- | ------------------- |
+| u(stock px go up) | $\Delta S^+ - C^+ $ | $-\Delta S^+ - C^+$ |
+| d                 | $\Delta S^- - C^-$  | $-\Delta S^- + C^-$ |
+
+Therefore, we have 
+$$
+PV(-\Delta S^+ + C^+ ) = \Delta S- C
+$$
+Then we have the no-arbitrage price of a call option
+$$
+C = \Delta S + PV (- \Delta S ^+ + C^+)
+$$
+
+
+e.g
+
+![image-20201003235232244](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20201003235232244.png)
+
+
+$$
+\text{Payoff}^+  = \text{Payoff}^-\\
+\Delta S^+ - C^- = \Delta S^- - C^-\\
+\Delta = \frac{C^+ - C^-}{S^+ - S^-} = \frac{1}{4}
+$$
+Then we have the payoff as $\text{Payoff} = 4.5$
+
+So we have the value of the call option as 
+$$
+C = \Delta S - PV(\text{Payoff})=0.755
+$$
+![image-20201004000340729](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20201004000340729.png)
+
+
+
+Now, for put. 
+
+Because we have a hedged position, and the put is benefit from stock px going down. So $\Delta <0$ .So that $\Delta S $ benefit from px going up. 
+
+The payoff would then be 
+$$
+\text{Payoff}^ - =  - \Delta S^+ + p^+\\
+\text{Payoff}^+ =  - \Delta S^- + p^-
+$$
+We would have a negative delta as 
+$$
+\Delta = \frac{p^+ - p ^-}{S^+ - S^-}
+$$
+
+#### Pi
+
+$\pi$ is risk neutral probability.  **The probability of the underlying px goes up. **
+$$
+\pi = \frac{1+ r - d}{u - d}
+$$
+Where the 
+$$
+c = PV[\pi c^+ + (1-\pi)c^-]\\
+P = PV[\pi p^+ + (1-\pi)p^-]
+$$
+e.g
+
+![image-20201004001752224](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20201004001752224.png)
 
 
 
@@ -3273,40 +3352,52 @@ Three types of equity returns
 
 
 
+Solution:
+$$
+\Delta = \frac{C^+ - C^-}{S^+ - S^- } = \frac{35 - 0 }{135 - 74} \approx 0.574
+$$
+Then we have c as 
+$$
+c = \Delta S + PV(-\Delta S^+ + C^+) = 16.9975
+$$
+Another solution:
+$$
+\pi = \frac{1+r - d}{u - d} = \frac{1.0515 - 0.74}{1.35 - 0.74} = 0.510656\\
+c = \frac{\pi c^+ + (1-\pi)c^-}{1+r} = 16.9975
+$$
 
 
+### Put-Call Parity
 
+$$
+S + p = PV(X) + c
+$$
 
+### American Style Options
 
+American calls can be exercise eariler. But an early exercise results in loss of time value. Therefore it would be better to sell than exercise. 
 
+American puts can be exercise earlier. Early exercise results in a premium over European Style options. 
 
+e.g
 
+$S_0 = 26, X = 25, u = 1.466, d = 0.656, r = 2.05\%$
 
+![image-20201004011134116](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20201004011134116.png)
 
+Solution:
 
+First, we have $\pi$
+$$
+\pi= \frac{1.0205 - 0.656}{1.466 - 0.656} = 0.45
+$$
+Then we have $p^-$
+$$
+p^ - = \frac{\pi p^{+-} + (1-\pi)p^{--}}{1+r} = 7.4436
+$$
+**But American options can exercised eariler, we can simply exercise and get 25 - 17.056 = 7.944 > 7.4436 **
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+So $p^- = 7.944$
 
 
 
