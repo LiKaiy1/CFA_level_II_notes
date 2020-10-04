@@ -3399,31 +3399,222 @@ $$
 
 So $p^- = 7.944$
 
+### Adjust for stock dividends
+
+![image-20201004100309199](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20201004100309199.png)
+
+**Instead of justy using Su, use (S-PV(Div))u as up price. **
+
+But because american style call can be exercised before ex-div. So the american call value is 
+$$
+C_{\text{American}} = max(0, S_t - X)
+$$
+
+### BSM Assumptions
+
+* Percentage changes in stock prices in a short period of time are approximately normally distributed. 
+* Changes in successive time periods are independent
+
+Therefore, we have 
+$$
+ln(S_t)\sim N(ln(S_0)+[\mu-\frac{\sigma^2}{2}]T,\sigma \sqrt{T})
+$$
+
+* No transaction costs
+* No arbitrage opportunities 
+* Trading is continuous 
+* Borrowing / Lending at risk free rate and it's constant. 
+* European Options
+* Constant and known volatility of the underlying 
+* Liquid underlying divisible 
+* Short selling with full use of proceeds. 
+* Geometric Brown Movement describes prices movements : continous and smooth
+
+#### Interpretation of the model 
+
+$$
+c = SN(d_1) - e^{-rT}XN(d_2)\\
+p =  e^{-rT}XN(-d_2)-SN(-d_1)
+$$
+
+The $N(d_2)$ captures the probability that the call can be finished in the money. 
+$$
+d_1  = \frac{ln(\frac{S}{X})+(r+\frac{\sigma^2}{2})T}{\sigma \sqrt{T}}\\
+d_2 = d_1 - \sigma \sqrt{T}
+$$
+
+
+#### Modification for carry benefit 
+
+$$
+d_1  = \frac{ln(\frac{S}{X})+(r-\gamma+\frac{\sigma^2}{2})T}{\sigma \sqrt{T}}\\
+d_2 = d_1 - \sigma \sqrt{T}
+$$
+
+Where $\gamma$  is the benefit of carrying. 
+
+The stock part of the call and put price would then changes. 
+$$
+c = Se^{-\gamma T}N(d_1) - e^{-rT}XN(d_2)\\
+p =  e^{-rT}XN(-d_2)-Se^{-\gamma T}N(-d_1)
+$$
+
+### Black Model (Options on Futures)
+
+$$
+C = [F_0(T)\cdot N(d_1) - X \cdot N(d_2)]e^{-rT}\\
+P = [-F_0(T)\cdot N(-d_1) + X \cdot N(-d_2)]e^{-rT}
+$$
+
+Call and put are the present value of expected payoff. 
+
+#### Black model on interest rate
+
+![image-20201004172632431](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20201004172632431.png)
+$$
+C = AP[FRA_{T_1,T_2} \cdot N(d_1) - X_R \cdot N(d_2)]e^{-rT_2}\\
+P = AP[X_R \cdot N(-d_2)-FRA_{T_1,T_2} \cdot N(-d_1) ]e^{-rT_2}\\
+d_1 = \frac{ln(\frac{FRA_{T_1,T_2}}{X_R}) - \frac{\sigma^2 }{2}T_1}{\sigma \sqrt{T_1}}\\
+d_2 = d_1 - \sigma\sqrt{T_1}
+$$
+**If we long call and short put, we created a received floating pay fixed swap.**
+
+#### Cap & Floors
+
+cap example:
+
+![image-20201004173810736](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20201004173810736.png)
 
 
 
 
 
+**Long floor short cap  ** $\Rarr$  **(Long floor)Received  Fixed (Short Cap)Pay Floating  Swap**
+
+If $X_R = \text{Swap rate}$ then $V_{Cap} = V_{Floor}, cost=0$
+
+#### Swaptions
+
+Option on a swap. Holder have the right to enter a swap at a pre-agreed swap rate. 
+
+Payer Swaptions: Pay fixed, get floating
+
+Receiver Swaptions: Get fixed, pay floating. 
+
+Consider a new discount factor: 
+$$
+PV_A = \sum_{j=1}^{n} (r_{fixed} - X_R)\cdot NA
+$$
+Then we have 
+$$
+Pay_{swp} = [R_{fix}\cdot N(d_1) - X_R N(d_2)]\cdot PV_A\\
+Rec_{swp} = [X_R N(-d_2)-R_{fix}\cdot N(-d_1) ]\cdot PV_A\\
+d_1 = \frac{ln(\frac{R_{fix}}{X_R})+\frac{\sigma^2}{2}T}{\sigma \sqrt{T}}\\
+d_2 = d_1 - \sigma\sqrt{T}
+$$
+
+
+### Greeks 
+
+#### Delta 
+
+$$
+\Delta_C = e^{-\delta T}N(d_1)\\
+\Delta_P = e^{-\delta T}N(-d_1)
+$$
+
+For a given X
+$$
+\Delta_C + \Delta_P = 1
+$$
+**For small changes, delta is good. For larger changes, delta loses accuracy. **
+
+Being delta neutral implies 
+$$
+\Delta_{Portfolio} + N_H \Delta_H = 0
+$$
+
+> Example 
+>
+> S = 100
+>
+> X = 100
+>
+> r = 5% 
+>
+> T = 1
+>
+> $\sigma = 30\%$
+>
+> $\delta = 5\%$
+>
+> Position: Short puts on 10000 shares. 
+> $$
+> \Delta_C = 0.532\\
+> \Delta_P = -0.419
+> $$
+> Our position delta is 
+> $$
+> - (-0.419)*10000 = 4190
+> $$
+> Therefore, we can short 4190 shares to be delta neutral. 
+>
+> Or we can  $\frac{-4190}{0.532} = -7876$ , means that we can short 7876 calls to be delta neutral.
 
 
 
+#### Gamma
 
+The change in an option's delta for a change in $S_0$ 
 
+Also, $\Gamma_c = \Gamma_p$
 
+e.g
 
+> $$
+> S_0 = 50\\
+> X = 50\\
+> \Delta = 0.5\\
+> \Gamma = 0.03
+> $$
+>
+> So when $S_t = 51$, 
+>
+> The call px goes up by $\Delta = 0.5$
+>
+> But as $S_t = 52$, c = 0.53
 
+#### Theta
 
+A change in px of call and put for a change in time to expiration. 
 
+**Long options have negative theta: time is your enemy.**
 
+**Short options have positive theta: time is your friend.**
 
+Theta cannot be adjusted by positions in the underlying. 
 
+Theta is the rate of option decay. 
 
+#### Vega
 
+Change in call and put for a change in volatility. 
 
+**Vega is based on future volatility.**
 
+#### Rho
 
+A change in call and put for a change in the risk-free rate. 
 
+**Calls have positive rho.**
 
+**Puts have negative rho.**
+
+### Implied Volatility
+
+* Volatility can be estimated from historical data. 
+* Volatility can be inferred from prices. 
+* Options can be quoted by implied volatility. 
 
 
 
