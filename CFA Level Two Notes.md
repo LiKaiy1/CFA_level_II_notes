@@ -3618,23 +3618,125 @@ A change in call and put for a change in the risk-free rate.
 
 
 
+# Financial Reporting And Analysis
 
+## Analysis of Financial Institutions
 
+### Systemic Importance 
 
+Their smooth functioning is essential to the overall health of an economy.  
 
+Systemic risk: A risk of disruption to the financial services that is caused by 
 
+* An impairment of all or parts of the financial system. 
+* Has the potential to have serious negative consequences for the economy as a whole. 
 
+### The nature of the liabilities and assets
 
+Liabilities of most banks are made up primarily of deposits. And failure to honor its deposits could have negative consequences. 
 
+Fiancial assets creat direct exposure to risks: interest rate risks, credit risks, market risks, liqudity risks. 
 
+**The goal of regulation is to minimize systemic risk.**
 
+### BASEL III 
 
+#### Minimum Capital requirements
 
+The minimum percentage of risk-weighted assets that a bank must fund with equity capital.
 
+#### Minimum liquidity
 
+A bank must hold enough high-quality assets to cover its liquidity needs in a 30-day liquidity stress scenario. 
 
+#### Stable funding
 
+Minimum amount of stable funding relative to the liquidity needs over a one-year horizon.
 
+### CAMELS
+
+#### Capital Adequacy
+
+Capital Adequacy: defined in terms of the proportion of the banks assets funded with capital. **Assets are adjusted based on their risk. Riskier assets require a higher weighting. ** For example: Cash 0%, Corporate Loans: 100% , Non-Performing Loans> 100%
+
+**Common Equity  Tier 1 Capital must be at least 4.5% of risk-weighted assets. **
+
+**Total Tier 1 equity must be at least 6% of risk-weighted assets.**
+
+Tier 2 capital: capital instruments that are subordinate to depositors and to general creditors and original minimum maturity of five years. 
+
+**Total capital must be at least 8% of risk-weighted assets.**
+
+#### Asset Quality
+
+Asset Quality: Capital are classified into hierarchical tiers. Pretains to the amount of credit risk associateed with the assets. 
+
+Loans, Investment in securities
+
+#### Management Capabilities
+
+Identifying profit opportunities while managing risk. 
+
+Strong goverance structure, sound internal controls, and financial reporting quality. 
+
+#### Earnings 
+
+High quality and trending upward. 
+
+**Estimate of fair value: similiar or identical instruments in active markets, if not obersevable then use a model to estimate FV.**
+
+#### Liquidity Position
+
+There are two minimum liquidity standards from BASEL 3:
+
+* Liquidity Coverage Ratio (LCR): Highly liquid assets / One Month Liquidity Needs in A stress Scenario > 100%
+* Net Stable funding ratio: The minimum % of a banks required stable funding that must sourced from, avaliable / required > 100%
+
+( avaliable is the capital and liabilities multiply by available stable funding factor)
+
+#### Sensitivity
+
+Sensitivity to market risk.
+
+### Other Factors
+
+#### Banking Factors
+
+* Government Support: Too big to fail, systemic important financial institution
+* Regional vs National vs Global, $\Rarr$ divwersification vs concentration of loan expressure.
+* Coporate culture
+
+#### Non-Banking Factors
+
+* Competitive environment
+* Off-balance sheet items
+	* Variable interest entities 
+	* Pension and Benefit plans
+	* Assets under management
+
+### Insurance Companies
+
+**Insurance companies can be categorized as property and casualty (less predictable)  vs  life and health.(More predictable) **
+
+#### Property & Casualty 
+
+Business profile is full of buildings , autos, etc. 
+
+Earnings are cyclical, price sensitive. 
+
+##### Profitability ratios
+
+Combined ratio = underwriting loss ratio + expense ration = total insurance expense / net premiums earned
+
+Underwriting Loss ratio = losses/ net premiums earned
+
+Expense ratio = underwriting expenses / net premiums written
+
+Loss and loss adjustment expense ratio = (loss expense + loss adjustment expense )/ net premium earned
+
+#### Life & Health
+
+for all profitability ratio, add deposits into the denominator. 
 
 
 
