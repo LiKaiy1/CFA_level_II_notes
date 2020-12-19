@@ -3944,6 +3944,20 @@ Another example:![image-20201101105438580](/Users/likaiyi/Documents/CFA_Level2/C
 
 
 
+#### Disclosure
+
+* Classified as non-current assets
+* Income Recorded as earned. 
+	* Net Income Before Discontiued Operations
+	* Discontiuned Operations
+	* Other Comprehensive Income
+
+#### Issues For Analysts 
+
+Is the equity method appropriate?
+
+For example: 19% of share but have significant influence vs 25% of shares with no influence
+
 
 
 
