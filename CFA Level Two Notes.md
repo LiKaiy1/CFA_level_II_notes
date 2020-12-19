@@ -21,7 +21,7 @@ __This note is created at *17:00, Wednesday, Janauary 1st, 2020* by Kaiyi Li. Th
 	- [ ] Quiz
 	- [ ] Practice Problems
 - [ ] **Derivatives** 
-	- [ ] Course Notes
+	- [x] Course Notes
 	- [ ] Quiz
 	- [ ] Practice Problems
 - [ ] **Alternative Investment**
@@ -45,7 +45,7 @@ __This note is created at *17:00, Wednesday, Janauary 1st, 2020* by Kaiyi Li. Th
 	- [ ] Quiz
 	- [ ] Practice Problems
 
-- [ ] **Financial Report Analysis** 
+- [ ] **Financial Reporting and Analysis** 
 	- [ ] Course Notes
 	- [ ] Quiz
 	- [ ] Practice Problems
@@ -3737,6 +3737,524 @@ Loss and loss adjustment expense ratio = (loss expense + loss adjustment expense
 #### Life & Health
 
 for all profitability ratio, add deposits into the denominator. 
+
+## Intercoporate Investments
+
+Intercorporate investments means investments in other companies. 
+
+It can 
+
+* Diversify their asset base
+* Enter new market
+* Obtain competitive advantage
+* achieve additional profitability
+
+Basic coporate investment categories includes 
+
+* Investments in financial assets(no significant influence or control, equity interest < 20%)
+* investments in associates: significant nfluence but no control(equity interest<50%)
+* Joint ventures: Control is shared by 2 or more entities.
+* Business Combinations: equity interest > 50%, have control
+
+### Investments in Financial Assets
+
+* Amortized Cost: The fiancial assets are being held to collect contractual cash flows while cash flows are solely principal interest. **Only debt falls into this category.** 
+* Fair Value through profit or loss (FVPL). Applied to all equity and some bonds.
+* Fair Value through OCI(**Other Comprehensive Income**).
+* **All measured at fair value when initially acquired.**
+* **All interest and dividends are recognized as income in profit and loss.**
+
+![image-20201007010130757](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20201007010130757.png)
+
+> Summary
+>
+> Evaluate company performance seperately for operating and investing activities
+>
+> Analysis of operations should exclued
+>
+> * Interest Income
+> * Dividend Income
+> * Gains and losses on investmenst
+>
+> Exclude non-operating assets
+
+### Associates and Joint Venture
+
+#### Equity Method
+
+Investment initially recorded at the cost of acquired shares. 
+
+**Each subsequent period adjusted for proportionate share of the changes in investee's net assets.**
+
+Proportion of shares of earnings is on Income statement. 
+
+Proportion of shares dividends is only on **balance sheet.**
+
+**Classified as non-current asset.** 
+
+E.g
+
+> ABC purchases 20% interest in XYZ for 480k at Jan 2/13 (48,000 shares @ $10 per share)
+>
+> For Balance Sheet 
+>
+> |                         | Debit | Credit |
+> | ----------------------- | ----- | ------ |
+> | Investment in Associate | 480k  |        |
+> | Cash                    |       | 480k   |
+>
+> XYZ reports NI = 200k for 2013
+>
+> BS
+>
+> |                         | Debit          | Credit |
+> | ----------------------- | -------------- | ------ |
+> | Investment in Associate | 40k = 200k*0.2 |        |
+> | Investment Income       |                | 40k    |
+>
+> IS
+>
+> | Income Statement        |      |
+> | ----------------------- | ---- |
+> | Investmen Income (loss) | 40k  |
+>
+> On Dec 30, Fair value per share is $12. 
+>
+> NO CHANGES!
+>
+> Jan 28/14, Cash Dividend $100k
+>
+> | Balance Sheet            | Debit | Credit |
+> | ------------------------ | ----- | ------ |
+> | Cash                     | 20k   |        |
+> | Investment in Associates |       | 20k    |
+
+![image-20201007012634829](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20201007012634829.png)
+
+
+
+##### issues
+
+> The acqusition cost $\ne$ Book Value. 
+>
+> Bought 25% of  Y corp for $8.5 Mio, but the book value of the corporation = \$30 mio 
+>
+> * First, locate the difference
+> * Allocate to specific assets
+>
+> Assume the dep assets are undervalued by 2.4 mio
+>
+> 25% of this 2.4 mio is 600k (take 75000 a year from inv in assoc account each year and reduces inv income as well assuming  this asset has 8 years of life.)
+>
+> Total access is 1 mio, so another 400k goes into good will.(impairment annually)
+>
+> In 2014, Y Corp reports 
+>
+> NI = 2.8M
+>
+> Includes loss on discountiouned Operations for $400k
+>
+> Dividends declared and paid Dec 31/2014 is $1.4M
+>
+> Jan 1/14
+>
+> | Balance Sheet     | Debit | Credit |
+> | ----------------- | ----- | ------ |
+> | Inv in Associates | $8.5M​ |        |
+> | Cash              |       | $8.5M  |
+>
+> Dec 31/2014
+>
+> | Balace Sheet              | Debit                               | Credit |
+> | ------------------------- | ----------------------------------- | ------ |
+> | Investment in associates  | $700k                               |        |
+> | Loss from disc operations | $100k                               |        |
+> | Investment Income (loss)  |                                     | $800k  |
+> | Cash                      | $350k (For div)                     |        |
+> | Inv in associates         |                                     | $350k  |
+> | Investment income         | $75k (amort of identifiable excess) |        |
+> | Inv in associates         |                                     | $75k   |
+
+![image-20201007152011039](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20201007152011039.png)
+
+#### Fair Value Method
+
+**For fair value method, IFRS is strongly restricted to VC, MF, and trusts. While GAAP allow all entities.**
+
+Investment reported at fair value:
+
+* Unrealized +/- gains goes into net income
+* interest and dividends goes into Net Income
+* Excess over Book Value not amortized
+
+#### Impairment 
+
+IFRS and GAAP periodic reviews of equity method investments for impairment
+
+Entire Carrying amount is tested.
+
+If so, written down to recoverable amount. 
+
+#### Transactions with associates
+
+![image-20201007153045564](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20201007153045564.png)
+
+**Profits from such transactions cannot be realized until confirmed either through 1) Use 2) A third party sales.**
+
+Otherwised they are all just unrealized profit. Proportionate amount must be taken out of investors income from investment until confirmed. 
+
+E.g
+
+20200101, W acquires 25% of F for $1M. 
+
+Given that 
+
+* BV = \$ 3.8M
+* FV = \$3.84 M ( Extra \$40 k for a building of 20-yr life )
+* Div = \$3200 
+* NI = \$20,000 (Include a \$8000 from an upstream sale of inventory)
+
+Sol:
+
+Our excess is 
+$$
+1M - 0.25 \times BV = 50k
+$$
+Given \$40 k is coming from the building, Because we only have 25% of interest, there are $0.25 \times 40k = 10k$ extra from it. 
+
+Therefore. the goodwill is accounted for 
+$$
+50k - 10k = 40k
+$$
+Note that the excess from the building which is 10k, is depreciated over 20-year of the buildings life. 
+
+So for each year, there will be a depreciation expense of $\frac{10k}{20} = 500$
+
+Because there is 8000 among that 20000 comes from the upstream sale of inventory. Therefore it is unrealized profit as 0.25 $\times$ 80000 = 
+
+Therefore, at 2021, the investment income would be 
+$$
+25\% NI = 0.25 \times 20000 = 5000
+$$
+Amortization expense ( from the building) is 500 and unrealized profit is 2000. The final income would be $5000-500-2000 = 2500$
+
+In the cash flow statement, none of these line items would appear, 2500 will be shown as cash flow from investment activities. 
+
+Another example:![image-20201101105438580](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20201101105438580.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
