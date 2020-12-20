@@ -3958,29 +3958,59 @@ Is the equity method appropriate?
 
 For example: 19% of share but have significant influence vs 25% of shares with no influence
 
+#### Acquisition Method
 
+##### The Identifiable Assets and liabilities 
 
+This includes tangible and intangible assets and liabilities at FV as of date of acquisition. 
 
+Must also recognize assets and liabilities not previously recognized. 
 
+**As for the contingent liabilities, it is a present obligation arising from past events and can be measured reliably.**
 
+Expected costs not included.
 
+##### Financial Assets
 
+Will be reclassified from acquiree to acquirer's business model. 
 
+##### Goodwill
 
+Recognition and measurement of goodwill has **partial** and **full**
 
+while GAAP only allows full and IFRS allows partial and full
 
+Example:
 
+>  800k for 80% of a target,  and the FV of the net assets = 900k
 
+This implies the FV of the entity is 1M
 
+Partial:
 
+ Given the FV of the acquisition is 800k. 80% of the $FV_{net\ assets} = 80\% 900k = 720k$
 
+Therefore, the goodwill we can recognized is 800k-720k = 80k.
 
+Full:
 
+Given the FV of the entity is 1M, and the fair value of the net assets is 900k, the goodwill need to be recognized is 100k for **full**
 
+*If acquisition price < FV, which is called a bargain acquisition*
 
+The FV of net assets less acquisition = gain on the income statement. 
 
+**Example: Goodwill impairment(IFRS)**
 
+Cash-generating unit
 
+Carrying Value = 1.4M includes 300k goodwill 
+
+![image-20201220204025902](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20201220204025902.png)
+
+**GAAP**
+
+![image-20201220204629575](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20201220204629575.png)
 
 
 
