@@ -4012,7 +4012,50 @@ Carrying Value = 1.4M includes 300k goodwill
 
 ![image-20201220204629575](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20201220204629575.png)
 
+## Employee Compensation: Post-Employment And Share Based
 
+### Defined Contribution
+
+A specific, agreed upon, contributions are made to an employee's pension plan. 
+
+Employer's contributions arte defined, employee's benefit's are not. 
+
+Employer's Contribution = Pension expense. No Further obligation. 
+
+Generally in the period in which the employee provides service. 
+
+Amounts paid usually attributed to specific individuals. 
+
+### Defined Benefit 
+
+Specifies the benefit the employee receives. 
+
+Employer's contribution is not fixed. 
+
+Creates a future obligation based on current service. 
+
+The entitlement to the benefits increase with the length of the employee. 
+
+**The difference between defined contribution and defined benefit is that :**
+
+* DB : Employer is the beneficiary. 
+* DC: Employee is the beneficiary. 
+
+If the plan assets > current obligtion, the plan is overfunded. May be possible for the employer to recapture by reduced future funding or reversion of funds. 
+
+The expense to be recognized each period is not the same as the employer's cash funding contribution 
+
+**Rely on actuaries to determine level of obligation funding each period. **
+
+Use of acturial assumptions: Motality rates, employee turnover, interest rates, earning rates, etc. 
+
+### Other Post employment Benefits
+
+Health, life insurance premiums. Typically classified as DB plans. 
+
+Example:
+
+**Pension Obligation**  is the PV of future benefits earned by employee's for service provided to date.  
 
 
 
