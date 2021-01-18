@@ -4057,6 +4057,19 @@ Example:
 
 **Pension Obligation**  is the PV of future benefits earned by employee's for service provided to date.  
 
+#### One-Person Plan Example
+
+**The pension obligation** is the present value of the future benefits earned by employee's for service provided to date. 
+
+The assumption is that 
+
+![image-20210118230229533](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20210118230229533.png)
+
+**Actuarial gains and losses: ** Result from 
+
+* change in assumptions
+* an experience gain/loss.
+
 
 
 
