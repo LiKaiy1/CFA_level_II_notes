@@ -4070,15 +4070,33 @@ The assumption is that
 * change in assumptions
 * an experience gain/loss.
 
+#### Component Cost
+
+The Defined Contribution: Reported as expense on IS, no BS effect.  It is folded in the cost of good sold. 
+
+Defined Benefit: On the balance sheet.
+
+Take the end of period **pension obligation** and subtract FV(plan assets) is the fund satus. 
+
+If PO > FV, we have the net pension liability. 
+
+If PO < FV, we have net pension asset. **It is subject to a ceiling. (no need to understand)**
+
+##### Periodic Pension Cost
+
+* Service Costs: Current and past. Include retroactive benefits pr returoactive curtailments. Recognized in P/L
+* Net Interest Income/Expense: Net Pension liability / Assets * discount rate.
+* Remeasurement: actuarial gains/losses, difference between actual return on plan assets and expected return. **Recognized in OCI.**
+
+**For GAAP, we use amortized some of these OCI to P/L over average service lives of affected employees. **
+
+![image-20210221221618235](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20210221221618235.png)
 
 
 
+#### Actuarial Assumptions
 
-
-
-
-
-
+An increase in Pension Obligation from a change in assumptions. 
 
 
 
