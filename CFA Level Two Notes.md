@@ -4096,9 +4096,23 @@ If PO < FV, we have net pension asset. **It is subject to a ceiling. (no need to
 
 #### Actuarial Assumptions
 
-An increase in Pension Obligation from a change in assumptions. 
+An increase\decrease in Pension Obligation from a change in assumptions: actuarial gains\losses
 
+When pension obligation changes, interest expense changes. ![image-20210222234906852](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20210222234906852.png)
 
+The assumptions built in:
+
+* Employee turnover
+* life expectancy
+* future inflation
+* interest rates
+* future compensation levels
+* rate of increase in compensation. 
+* long term equity growth rate
+
+#### Disclosures
+
+Differences 
 
 
 
