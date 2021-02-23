@@ -4112,9 +4112,19 @@ The assumptions built in:
 
 #### Disclosures
 
-Differences 
+Comparability can be affected by 
 
+* Differences in key assumputions 
+* Periodic pension costs recognized in P/L may not be comparable 
+* Reporting differences between GAAP/IFRS IFRS requires immediate recognition vs GAAP allows defer & amortize
+* Reporting differences between GAAP/IFRS: affects where on statements specific line items appear.
+* Cash flow reporting differences: IFRS sees as financing/operating activities while GAAP sees as operating activities
 
+##### Assumptions
+
+Assumptions are disclosed: discount rates, expected compensation, increases, medical exp, inflation, expected return on asssets for GAAP.
+
+**Other post-employment benefits: increase in health care costs, future inflation rate, is known as the ultimate health care trend rate.**
 
 
 
