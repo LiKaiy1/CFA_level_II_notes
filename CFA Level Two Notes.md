@@ -4126,21 +4126,43 @@ Assumptions are disclosed: discount rates, expected compensation, increases, med
 
 **Other post-employment benefits: increase in health care costs, future inflation rate, is known as the ultimate health care trend rate.**
 
+##### Net Pension Liability/Assets 
 
+ IFRS and GAAP requires the amount on Balance sheet is net. 
 
+The plan is not consolidated since the plan is a separate legal entity. 
 
+##### Total Periodic Pension Costs
 
+Net pension liability/asset before considering employer contributions. 
 
+Periodic pension costy = ending funded status - employer contribution - beginning funded status
 
+##### Costs recognized in P/L vs OCI.
 
+![image-20210227213856541](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20210227213856541.png)
 
+##### Classification 
 
+Pension expense generally treated as operating expenses. 
 
+Interest expense/income may be better treated as non-operating expenses. 
 
+##### Cash Flow Disclosures
 
+Cash flow impact: employer's contribution to the fund. 
 
+If contributions to a plan in a given year are in excess of current pension expenses. 
 
+##### Share-based compensation
 
+Main issues: recognition and measurement. 
+
+Problem is that Stock Options issued by the company are not traded on exchanges. 
+
+**Equity stock option plan are charged in equity accounts. **
+
+**Compensation rewarsds depend on future events are chared to operating income on IS.**
 
 
 
