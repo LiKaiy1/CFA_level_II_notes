@@ -4164,19 +4164,23 @@ Problem is that Stock Options issued by the company are not traded on exchanges.
 
 **Compensation rewarsds depend on future events are chared to operating income on IS.**
 
+## Multinational Operations
 
+### Currency Termininology
 
+Records are kept in host country currency. (**Local Currency**)
 
+Parent company based in US, has to presented in USD (**Functional Currency**)
 
+**The presentation currency: The currency of financial statement**
 
+**The Funtional Currency: the currency of the primary economic environment**
 
+**The Local Currency:Currency where the company operates.**
 
+### Currency Transactions
 
-
-
-
-
-
+By Definition, **a foreign currency is any currency other than a company's functional currency**
 
 
 
