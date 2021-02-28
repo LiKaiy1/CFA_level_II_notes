@@ -4182,13 +4182,17 @@ Parent company based in US, has to presented in USD (**Functional Currency**)
 
 By Definition, **a foreign currency is any currency other than a company's functional currency**
 
+If  everyting was settled on the day transation happend, there will be no issue.
 
+But sometimes there are transactions that leads to asset/liability in a duration. 
 
+The accounting method:
 
+![image-20210228224425063](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20210228224425063.png)
 
+**Any currency translation, unrealized gain/loss goes to the income statement. Belongs to the the non-operating income/expense.**
 
-
-
+The gross profit margin and net income should not be affected.
 
 
 
