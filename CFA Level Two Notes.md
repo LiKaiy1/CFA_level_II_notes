@@ -4194,37 +4194,42 @@ The accounting method:
 
 The gross profit margin and net income should not be affected.
 
+**Since standards specify no placement on the IS, companies can choose.**
 
+Unrealized gains/losses are included in NI on BS date. 
 
+IFRS requires disclosure of the "amount of exchange differences recognized in P/L." Neither requires disclosure of the line item in which gains/losses are located.  
 
+**If immaterial, not disclosed.**
 
+* Limited transactions. 
+* Forex pegged/fixed/stable 
+* offsetting transactions.
+* Hedging practice using forwards/options. 
 
+When consildate a foreign children's report, **what is the appropriate exchange rate with respect to each FS account? How should the translate adjustment be reflected in the consolidated FS?**
 
+There are two approaches for translation. 
 
+* All A/L are translated at spot rates.  (The current method)
+* Only monetary rates are translate at spot rate, while non-monetary A/L translated @ historical rates (The monetary method). (The rate at the time of purchasing.)
 
+Then there will be difference between last report date and current because of difference of spot rates: **Net Foreign currency translatiuon gain/loss.**
 
+**Translate adjustment on balance sheet is cumulative.**
 
+Which method is appropriate?
 
+Depends on the foreigh entity's functional currency.
 
+If the the subsidary is same as parent, use the temporal method( monetary method.)
 
+Otherwise use current method. 
 
+**The key to determine the functional currency:**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* The currency that mainly influences sales prices for g/s. 
+* The currency of the country whose competitive forces and regulations mainly determine the salse price of its g/s. 
 
 
 
