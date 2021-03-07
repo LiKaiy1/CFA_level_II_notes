@@ -4231,25 +4231,39 @@ Otherwise use current method.
 * The currency that mainly influences sales prices for g/s. 
 * The currency of the country whose competitive forces and regulations mainly determine the salse price of its g/s. 
 
+##### Hyperinflation
 
+If the entity is in a highly inflationary environment, functional currency is not very relevant.
 
+IFRS: Foreign entity's first restated for changes in the local general price level and then translated at current rates.
 
+GAAP: Must use temporal method. 
 
+**Hyperinflation: $(1+i)^3 - 1 > 1, i \approx 26\%$**
 
+For GAAP: just use temporal method.
 
+For IFRS,
 
+On balance sheet: monetary asset/liability are not restated for inflation. Exposed to +/- in P.P. 
 
+Non-monetrary A/L restated for inflation. Restated from the date of balance sheet valuation or from revaluation date.
 
+Equity accounts: all components restated for inflation from the begining of the period. 
 
+As for the income statement, all IS items restated by applying $\Delta CPI$ from dates when the item was originally recorded on BS.
 
+##### Effective Tax rate
 
+If home tax rate > foreign tax rate, 
 
+incremental tax rate = home rate - foreign rate. 
 
+##### Financial Results
 
+Parent may have subs using temporal method and others using current rate. 
 
-
-
-
+**Current rate method disclosed translation adjustment** 
 
 
 
