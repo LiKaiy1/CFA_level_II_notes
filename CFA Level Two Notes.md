@@ -4265,6 +4265,18 @@ Parent may have subs using temporal method and others using current rate.
 
 **Current rate method disclosed translation adjustment** 
 
+## Quality Framework
+
+![image-20210320191137199](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20210320191137199.png)
+
+The motivation is typically to bias NI. 
+
+New Management may be aggressive to bias NI.
+
+
+
+
+
 
 
 
