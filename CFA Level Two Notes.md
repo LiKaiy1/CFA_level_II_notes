@@ -4273,17 +4273,83 @@ The motivation is typically to bias NI.
 
 New Management may be aggressive to bias NI.
 
+Mergeres and Acqusitions dilute CFO problems conceal past accounting misstatements. 
 
+Stock deals acquirer may manage earnings up prior to the acquisition to raish share price. 
 
+Target may do the same, get a more favourable price. 
 
+Maximize Goodwill understate value of amortizable intangibles.
 
+Potential problems also includes 
 
+revisions to estimates ( useful lives)
 
+sudden increase to allowances/reserves (past NI overstated)
 
+Large accruals for losses.
 
+Unrecognized / unreported A/L
 
+### General steps 
 
+1. Understand the company / industry
+2. Management 
+3. Significant accounting areas
+4. Make comparisons. ( YOY, Major differences, Acct. Policies, Ratios)
+5. Warning Signs: Declining AR turnover, Days inventory building, NI > CFO
 
+#### Beneish model
+
+Attempts to capture the probability of manipulatuion. 
+
+M-Score ~ N(0,1) , Cut-off z score is -1.78. If larger than that, there will be probability of manipulation. 
+
+### Sustainable Earnings
+
+Sustainabnle: ROIC > WACC
+$$
+E_{t+1} = \alpha + \beta_1 E_t +\epsilon
+$$
+Higher Beta, Stronger persistence. 
+
+For the accrualed measurement,
+$$
+E_{t+1} = \alpha + \beta_1 CF + \beta_2 Accruals + \epsilon
+$$
+Earnings with a higher accruals component would be less persistent. 
+
+Can Further breaking down the accruals components. 
+
+Accruals can be classified as normal transactions and discretionary accruals. 
+$$
+Acc = \alpha + \beta_1 \text{Growth in credit sales} + \beta_2 (Depreciation) + \epsilon
+$$
+Looking for outliers in the error terms. 
+
+### Earnings Mean Reversion
+
+Extreme levels of earnings, high & low, tend to revert to normal levels. 
+
+Low: Shut down operations, change management
+
+High: Attracts competition.
+
+Cannot extrapolate L/H earnings into the future, must normalize. 
+
+**The higher the accruals component, the faster the mean reversion may be .**
+
+### Revenue Recognition
+
+Fully understand revenue recognition policies: Shipping terms, rights of return, rebates, multiple deliverables. 
+
+Receivables do not improve with age. 
+
+Cash Vs Accrual" AR/Sales over time. 
+
+Pay attention to nonfinancial data. 
+
+revenue trends: Kinds of revenue recognized, growth in revenue vs growth in AR. 
 
 
 
