@@ -4351,13 +4351,31 @@ Pay attention to nonfinancial data.
 
 revenue trends: Kinds of revenue recognized, growth in revenue vs growth in AR. 
 
+### Bankruptcy Prediction Models
 
+Attempt to quantify the likelihood that a company will default on its debt/ declare bankruptcy.
 
+![image-20210322202008170](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20210322202008170.png)
 
+### Cash Flow Quality
 
+#### Indicators of Cash Flow quality
 
+* Positive Operating Cash Flow
+* OCF from sustainable sources. 
+* OCF > (CAPEX+ Div + Debt Repayment)
 
+But it depends on life cycle statge and industry. 
 
+Operating Cash flow is less easily manipulated than Operating Income/ Net Income. 
+
+But Can still be 
+
+* Selling AR
+* Delaying AP
+* Shift CFF/CFI to CFO.
+
+But They would leave BS footprints. 
 
 
 
