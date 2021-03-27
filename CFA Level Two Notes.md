@@ -4377,35 +4377,97 @@ But Can still be
 
 But They would leave BS footprints. 
 
+### Balance Sheet Quality
 
+#### Results Quality
 
+* Optimal Amount of leverage
+* adequate liquidity
+* economically successful asset allocation
+* ratio analysis
+* common size statements
 
+#### Reporting Quality
 
+1. Completeness: Relevant items on balance sheet, off-balance sheet items may understate leverage, unconsolidated joint venture or equity method investees(Parent reports share of NI but not shares of sales: profitability ratios overstated)
+2. Unbiased measurement: particularly when subjective valuation is involved.
+3. Clear presentation: Seperate vs aggregate line items
 
+### Risk Disclosures
 
+* Auditor 
+* Notes to Financial Statement
+* MD&A 
+	* Nature of Business
+	* Objectives and strategies
+	* Resources, risks and relationships
+	* Results and prospects
+	* Performance measures and indicators
 
+## Financial Statement Analysis
 
+![image-20210324201804083](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20210324201804083.png)
 
+# Equity Valuation
 
+## Valuation and Intrinsic Value
 
+The goal of valuation is to identify mispriced securities/assets.
 
+Equity valuation based on the following asssumptions:
 
+* The undertaking valuation efforts assumes mispricing exists. ($P \ne V$)
+* Price and value will converge
+* Going Concern Value: a company will continue business activities. 
+* Liquidation Value: Immediate vs Orderly liquidation value. (Immediate vs Orderly Liquidation Value)
 
+###  Value 
 
+#### Intrinsic Value
 
+Typically the relavant concept of value for valuing public equities.
 
+#### Fair Market Value
 
+Value at which an asset/liability would change hands between a willing buyer/seller when they are not under any compulsion to buy/sell.
 
+#### Investment Value
 
+An asset may be worth more to a particular buyer.
 
+## Industry/ Competitive Analysis
 
+### Valuation Process
 
+* Understanding the business
+* Forecasting Company Performance
+* Selecting The appriate valution Model
+* Convertiung forecasts to a valuation 
+* Applying the valuation conclusions.
 
+### Absolute vs Relative 
 
+An absolute valuation model specifies an assets intrinsic value
 
+Cash Flows have two levels: Shareholder level (Dividends) and Company Level( Free Cash Flow, Residual Income)
 
+While a relative valuation models (methods of comparables)
 
+Estimate of value relative to another 
 
+Law of one price: similar assets should sell for similar prices. 
+
+Price multiples or enterprises multiples. 
+
+> Conglomerate Discount
+>
+> Market Typicaklly applies a discount to the stock of a company operating in multople unrelated businesses. 
+>
+> Explanations: Inefficiency in capital allocation
+>
+> Capital allocation Accross segements may not maximize shareholder value. 
+>
+> Poorly Performing companies tend to expand by diversifying the earnings base. 
 
 
 
