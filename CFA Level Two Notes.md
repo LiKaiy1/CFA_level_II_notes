@@ -4471,19 +4471,73 @@ Price multiples or enterprises multiples.
 
 
 
+## Return Concept
+
+The Holding Period Return
+
+$$
+R_H = \frac{D_H+P_H}{P_0} -1
+$$
+The realized Holding Period Return is history, while the expected holding periode return is forward looking. 
+
+Required Return is the minimum level of expeced return for a specified time period given an assets risk. 
+
+**The discount Rate** can be subjectively modified. IRR is the discount rate such taht $P_0 = PV(CF_i)$ 
+
+Example:
+
+> Given: $P_0 = 127.97, r = 6.3\%, V_0 = 176.3$  where $r = r_f \beta \cdot ERP$
+>
+> Find $E(R_\tau)$ if expected Convergence:($\tau$) where $\tau$ is the time of convergence. 
+>
+> If $\tau = 1yr$, We have 
+> $$
+> E(r_\tau) = r_\tau + \frac{V_0-P_0}{P_0} =6.3 + \frac{176.3 - 127.97}{127.97} = 6.3 + 37.77 = 44.07\%
+> $$
+>   If $\tau = 9mo$, we have 
+> $$
+> [1.063^0.75 - 1] + 37.77\% = 42.66\%
+> $$
+> Portential Risk:
+>
+> * No mispricing exists
+> * No convergence over holding period
 
 
 
+Example:
+
+> Given :
+>
+> $P_0 = 33.31, D = 0.96, r = 7\%$ and one year price target is 37.5. 
+>
+> What is the $E(\alpha)$?
+>
+> Solution:
+> $$
+> E(\alpha) = E(R_\tau) - r_{\tau} \\
+>  = \frac{37.5 - 33.31 + 0.96}{33.31} - 0.07
+> $$
+> 
 
 
 
+### Equity Risk Premium
 
+The incremental return required for holding equities over a risk-free asset depends strictly on expectations for the future. 
 
+The  purpose of estimating equity risk premium is to estimate an input to a model to estimate r. 
+$$
+ERP = \frac{\sum_{i = 1}^{N}{(R_{M_i} - r_{f_i})}}{N}
+$$
 
+* Typically Estimated for a national equity market.
+* Broad Based, market value weighted indexes. 
+* Assumed Stationarity, constant parameters over time and into the future. Usually a longer time period would help stationarity. 
+* Can use arithmetic or geometric. But preferred geometric.
+* Use T-bil (90 days monemarket rate) or T-Bond (long term bond) as proxy for risk-free rate.
 
-
-
-
+The geometric mean appears to be appropriate in a multi-period context. (Even when using a single-period context), even when using a single period required return model.  **Therefore, geometric mean is preferred in estimating equity risk premium.**
 
 
 
