@@ -4535,13 +4535,31 @@ $$
 * Broad Based, market value weighted indexes. 
 * Assumed Stationarity, constant parameters over time and into the future. Usually a longer time period would help stationarity. 
 * Can use arithmetic or geometric. But preferred geometric.
-* Use T-bil (90 days monemarket rate) or T-Bond (long term bond) as proxy for risk-free rate.
+* Use T-bill (90 days monemarket rate) or T-Bond (long term bond) as proxy for risk-free rate.
 
 The geometric mean appears to be appropriate in a multi-period context. (Even when using a single-period context), even when using a single period required return model.  **Therefore, geometric mean is preferred in estimating equity risk premium.**
 
+A longer time period can increase the precision of estimated ERP, but the assumption of stationarity becomes less viable. 
 
+> Adjusted Historical Estimates
+>
+> Historical ERP may be adjested to neutralize the effects of bias in market return series.
+>
+> Survivorship bias: Inflates historical estimates of ERP
+>
+> Event History: A string of positive events not balanced out by negative events and which are not likely to reocur. 
 
+#### Foward Looking Estimates
 
+##### Gordon Growth Model Estimates 
+
+$$
+ERP(GGM) = \frac{D_t}{P_0} + g - r_f
+$$
+
+Where the $D_t$ is the year ahead aggregate forecasted dividends,  where $P_0$ is the current index price.
+
+$g$ is the consensus long-term earnings growth rate. While $r_f$ is the current Longterm goverment bond yield.
 
 
 
