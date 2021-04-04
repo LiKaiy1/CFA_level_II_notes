@@ -4561,25 +4561,80 @@ Where the $D_t$ is the year ahead aggregate forecasted dividends,  where $P_0$ i
 
 $g$ is the consensus long-term earnings growth rate. While $r_f$ is the current Longterm goverment bond yield.
 
+###### If the assumption of a stable g does not hold, use a 2 or 3 stage GGM 
 
+$$
+ERP  = IRR - r_f
+$$
 
+To solve this, we have 
+$$
+P_0 = PV_{fast} (r) + PV_{transition}(r) + PV_{growth}(r)
+$$
+To get r.
 
+**The GGM assumes a constant dividend pay out ratio and efficient markets. **
 
+##### Macroeconomic Model Estimates
 
+For example 
+$$
+\{[1+E(I)][1+E(g_{EPS})][1+E(g_{P/E})]-1 + E(inc)\} -E(r_f)
+$$
+While the expected inflation $E(I)$ is the 
+$$
+\frac{1+ YTM(20-yr \ T-bond)}{1+ YTM( \ YTM 20-yr\ TIPS)} - 1
+$$
+The expected growth rate of Earnings Per share, we should track the real GDP growth.
 
+Then we have the expected growth rate of $P/E$
 
+with Baseline as 0. 
 
+If index is overvalued, then $E(g_{P/E}) < 0$ , otherwise vice versa. 
 
+### Beta Estimation
 
+Typically OLS regression, unadjusted raw beta. 
 
+Since the betas tend to be mean reverting  and because valuation is forward looking, raw beta is adjusted. 
 
+#### Blume adjustment
 
+$$
+\text{Adjusted Beta } = \frac{2}{3} \text{Raw Beta} + \frac{1}{3}
+$$
 
+Because the **beta of the market is 1.**
 
+### Required Return 
 
+#### CAPM
 
+CAPM assumes 
 
+* Investors are risk averse
+* Investment decisions are based on mean return and variance of returns of their total portfolio
 
+#### Multi Factor Models
+
+$R_{MRF} = R_m - R_f$ Return on market over the one-month T-Bill rate. 
+
+$SMB$ the averagte R on 3 small-cap portfolios minus average R on 3 large-cap portfolios
+
+$HML$ is the average R on 2 high book-to-market portfolios minus the average R on 2 low book-to-market portfolios
+
+> Pastor-Stambaugh Model
+>
+> In addition to the fama-french three factor model, it creates another factor: liquidity
+
+### WACC
+
+$$
+WACC = \frac{MVD}{MVD+MVCE}E(YTM)(1-t) + \frac{MVCE}{MVD+MVCE}E(R_e )
+$$
+
+R(e) can be capm, multifactor model, ext. 
 
 
 
