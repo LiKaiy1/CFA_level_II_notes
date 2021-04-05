@@ -4634,69 +4634,131 @@ $$
 WACC = \frac{MVD}{MVD+MVCE}E(YTM)(1-t) + \frac{MVCE}{MVD+MVCE}E(R_e )
 $$
 
-R(e) can be capm, multifactor model, ext. 
+R(e) can be capm, multifactor model, etc.
 
+## Industry Analysis
 
+### Top Down / Bottom Up
 
+#### Revenue
 
+##### Segment Disclosures
 
+IFRS/GAAP: Separate financial info must be provided for any segment whose revenue/ operating income and assets is larger than 10% of The combined company's revenue. operating income, and assets. 
 
+The most common ways to divide segements
 
+* Geogrphy
+* Business segment
+* Product Lines
 
+（Product lines are smaller than Business segement)
 
+Top Down: Economy: Sector: Industry: Market: Company
 
+Bottom Up: Product Lines: Segements/Locations: Company
 
+### Economies of Scale
 
+#### Cost Analysis
 
+Fixed Costs more directly tied to CAPEX and to total capacity. 
 
+Determination of Economies of scale including gross margins and operating margins. 
 
+**Gross margins captures scale economies with suppliers.**
 
+**Operating margins capture scale economies of operators.**
 
+### Forecasting Costs
 
+#### COGS
 
+COGS is the largest cost item for merchandising and manufacturing companies. 
 
+**For companies has a long history, the historical relationship provide a good starting point.**
 
+Cost drivers:
 
+* Size 
+* Competitive forces constrain margins. 
+* Strategy choice: Cost/differentiation /focus
+* Fluctuating input costs. Passtru vs Hedge
 
+**Hedging information usually found in the footnotes. **
 
+Can also compare with competitors: isolate diffeerences with the key drivers. Size / operations. business model, execution.
 
+#### SG&A 
 
+SG&A are less directly tied to revenue. 
 
+Often broken out based on whether fixed or variable costs.
 
+For example: Selling expense are more variable and can be estimated using % of revenue, general and administration and R&D are more fixed. 
 
+#### Non-Operating Costs
 
+Financing Expenses = maturity structure + interest rates found in the notes.
 
+#### Coporate Income Tax
 
+Statutory Tax Rate: Tax Rate applicable to company's domestic tax base. 
 
+After adjusted for tax credits, non-deductible expenses, Div withholdings, adjustments to previous years
 
+we then have effective tax rate. 
 
+And the **effective tax rate ** are used to forecast tax expense. 	
 
+After adjusted for **deferred tax assets and deferred tax liabilities, we would then have the Cash Tax Rate used to forecast Cash Flows.**
 
+## Balance Sheet modeling
 
+### Working Capital Account
 
+Efficiency Ratios: 
 
+* Inventory Turnover
+* Days of Inventory on Hand
+* Receivables Turnover
+* Days Sales Outstanding
+* Days of Payables outstanding 
+* Working Capital Turnover
 
+### Non Current Assets
 
+Less directly tied to income statement. Net PPE primarily driven by CAPEX and depreciation. Based on historical depreciation  schedules. 
 
+### Capital Structure
 
+Leverage ratio:
 
+* Debt to Capital
+* Debt to Equity
+* Debt to EBITDA
 
+to see how they deviating from the current capital structure.
 
+#### Scenario Analysis
 
+Change multipe assumtions at a time to see the on intrinsic value.
 
+#### Sensitivity Analysis
 
+Change one assumption at a time to see the effect on intrinsic value.
 
+### ROIC (return on invested capital)
 
+$$
+\text{ROIC} = \frac{\text{Net Operating Profit Less adjusted taxes}}{\text{Operating Assets - Operating Liabilities}}
+$$
 
+#### ROCE (Return on Capital Employed)
 
-
-
-
-
-
-
-
-
+$$
+ROCE = \frac{\text{NOP}}{\text{Emp. Cap}} = \frac{\text{Earnings before Interest and Tax}}{\text{Debt Equity}}
+$$
 
 
 
