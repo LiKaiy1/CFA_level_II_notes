@@ -4760,35 +4760,72 @@ $$
 ROCE = \frac{\text{NOP}}{\text{Emp. Cap}} = \frac{\text{Earnings before Interest and Tax}}{\text{Debt Equity}}
 $$
 
+### Forces-Prices-Costs
 
+#### Downward Price Pressure
 
+* Low entry barriers
+* Substitutes
+* Buyer Power
+* Intense Rivalry
 
+#### Upward Pressure
 
+* Higher Quality of Service
+* Supplier Power
+* Rivarly
 
+Current Industry Structure is in current margins.
 
+Future margins will be affected by future structural pressures on prices and costs.
 
+### Inflation / Deflation
 
+**Companies with pricing power can pass on inflation, others can't.**
 
+####  Effect  on Cost Projection
 
+* Cost Drivers
+* Hedging
+* Competitive Environment
 
+### Technological Change
 
+Technology usually leads to a lowering of costs. 
 
+Prices depends on the nature of the technology. 
 
+* Proprietary: Sustainable cost advantage. Leads to a higher operating margins. 
+* Non-proprietary: short-run cost advantage to early adopters.
 
+#### Impacts on costs of lower volumes
 
+**Requires Estimate of variable vs fixed costs**
+$$
+\%\text{Variable Costs} = \frac{\%\Delta\text{Cost of Revenue + Operating Expenses}}{\% \Delta\text{ Revenue}}
+$$
 
+> Cannibalization
+>
+> The new ipad will substitute part of the old ipad user.
 
+### Forecast Horizon
 
+Choice of horizon influenced by
 
+* Investment Strategy: Forecast horizon should match the average holding period
+* Cyclicality: Forecast periood should be long enough for the business to reach an expected mid-cycle level of sales/profitability.
 
+> **Mid-cycle:** Typically longest phase of the business cycle 
+>
+> Positive but more moderate rate of growth than during early cycle phase 
 
+* Company-specific factors: acquisitions, restructuring, forecast horizon should allow for digestion. 
+* Analysts employers preference: Longer-term forecasts provide a better representation of the normalized earnings, potential of the businese/
 
+> **Normalized Earnings**: Expected mid-cycle earnings for a company in thge absence of unusual/temporary factors that mnight impact profit.
 
-
-
-
-
-
+> **Inflection Points**: Future departs from the recent past. Technological changhe regulation. 
 
 
 
