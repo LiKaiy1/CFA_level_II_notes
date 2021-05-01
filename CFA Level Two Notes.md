@@ -795,7 +795,6 @@ Issuer can pay a lower coupon because if the bond is converted, no principal rep
 	$$
 	\text{Premium Over Straight Value} = \frac{PV_0}{\text{Straight Value} }-1
 	$$
-	
 
 #### Risk And Return Characteristics
 
@@ -2217,7 +2216,6 @@ International  Parity conditions serve as an anchor for longer-term exchange mov
 > Fisher effect stated that $i_f-i_d = \pi_f-\pi_d$ and we are given $r_f-r_d = 0$
 >
 > Therefore, it should be equal to 4%. 
->
 
 If all international parity conditions held:
 
@@ -4518,7 +4516,6 @@ Example:
 > E(\alpha) = E(R_\tau) - r_{\tau} \\
 >  = \frac{37.5 - 33.31 + 0.96}{33.31} - 0.07
 > $$
-> 
 
 
 
@@ -4829,9 +4826,106 @@ Choice of horizon influenced by
 
 
 
+## Cash Flow Types
 
+There are 4 steps in applying DCF analysis
 
+1. Select a definition of cash flow
+2. Forecast those cash flows
+3. Choose a discount rate methodology
+4. Estimate the discount rate
 
+We can use **dividends, residual income and free cash flow for "Cash flow"**
+
+### Use dividends as cash flows
+
+* Less Volatile Than Earnings
+* Less sensitive to short-term fluctutions
+* Reflects long-term intrinsic value.
+* Companies usually reluctant to reduce dividends
+
+**DDM can be applied to non-div paying companies as well with key assumptions:**
+
+* Company is dividend paying
+* Established dividend policy that bears an understandable and consistent relationship to the company's profitablity
+* the invstor takes a non-control perspective.
+
+### Use Free Cash Flow
+
+Assumptions:
+
+* Company is non-div paying
+* Company is div paying but div is significantly exceed or fall short of  Free-Cash Flow
+* Company's FCF aligns withe the company's profitablity within the forecast horizon
+* The investor takes a control perspective
+
+### Use Residual Income 
+
+Suitable when 
+
+* Company is not paying dividends
+* Expected FCFs are negative within the forecast horizon
+
+### Discount Dividend Model
+
+#### Single Period Model 
+
+$$
+V_0 = \frac{D_1}{1+r} + \frac{P_1}{1+r}
+$$
+
+#### Multiple Period Model 
+
+$$
+V_0 = \sum_{t=1}^n \frac{D_t}{(1+r)^t} + \frac{P_n}{(1+r)^n}
+$$
+
+#### Gordon Growth Model
+
+**Assumes dividends grow indefinitely at a constant rate.**
+$$
+V_0 = \frac{D_0 (1+g)}{(r-g)} = \frac{D_1}{r-g}
+$$
+r should be much larger than g.
+
+> Example
+>
+> $D_0 = 0.74, g = 3.8\%. \beta_{raw} = 0.7, \beta_{adj} = 0.8, r_d = 5.6\% r_e = 7\%, P_0=20.50, RP = 2.5\%$
+>
+> 1. Find $V_0$:
+> 	$$
+> 	V_0 = \frac{D_1}{r-g} =\frac{D_0(1+g)}{r_e - g} =  \frac{0.74(1.035)}{0.07 - 0.035}
+> 	$$
+>
+> 2. Under/Over Valued
+>
+> 	$\frac{21.88 - 20.5}{20.5} = 6.77\%$  It is 6.77% lower than valuation. (Undervaluing)
+>
+> 3. Calculate R using CAPM or BYRP
+>
+> 	With $r_f = 3\%, ER = 4.5\%$. 
+>
+> 	Using CAPM we have: $R = 0.03 + 0.80(0.045) = 6.6\%$ If we use 6.6% as return on equity, we then have a valuation of 24.71.
+>
+> 	Using BYRP we have:  $R = r_d + rp = 0.056 +  0.025$
+
+##### Implied Growth Rate 
+
+We have $V_0$ to solve g. 
+
+#### Present Value of Growth Opportunity (PVGO)
+
+Assume a company has a 100% dividend pay out ratio. Assume D = 4 and r = 10%
+
+Let $g = 0$ Then we have $V = \frac{D_1}{r}$
+
+Now assume a company can earn 15% on its own reinvested earnings. 
+
+Reduce the OPR to 50% or 2, g = 15%*50% = 7.5% V = 80. 
+$$
+P = \frac{E_1}{r} + PVGO
+$$
+The $E/r $ is the value of a company without earnings reinvestment. 
 
 
 
