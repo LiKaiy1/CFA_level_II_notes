@@ -4927,6 +4927,88 @@ P = \frac{E_1}{r} + PVGO
 $$
 The $E/r $ is the value of a company without earnings reinvestment. 
 
+### Justified P/Es
+
+Because 
+$$
+V_0 = \frac{D_0(1+g)}{r-g}, then \frac{V_0}{EPS} = \text{Justified P/E}
+$$
+Again, assuming that $V_0 = P_0$ we have 
+
+The **Forward P/E**
+$$
+\frac{P_0}{E_1} = \frac{D_1/E_1}{r-g} = \frac{1-RR}{r-g}
+$$
+
+
+The **Trailing P/E**
+
+$$
+\frac{P_0}{E_0} = \frac{\frac{D_0(1+g)}{E_0}}{r-g} = \frac{(1-RR)(1+g)}{r-g}
+$$
+
+
+### Preferred Stock
+
+Non-Callable Fixed Rated Perpetual. Level dividend implies Preferred Stock can be valued as a perpetual bond. 
+$$
+V_0 = \frac{D}{r}
+$$
+
+###  Multi-stage DDM
+
+Assumption of stable div growth rate are not realistic for most companies. 
+
+A 2-stage (growth - maturity) holds following assumptions:
+
+* Abnormal g is stage 1. 
+* Constant g at maturity. 
+* Transition from growth to maturity abrupt. 
+* Single R at both stages. 
+
+#### Stages of Growth
+
+##### Growth Phase 
+
+* Rapidly growth slows towards rate of GDP. 
+* High Profit margins. 
+* Abnormally high growth rate in EPS. 
+* Often FCFE < 0
+* DPR = 0.
+
+##### Transition Phase
+
+* Earnings growth slows towards rate of GDP. 
+* Competition puts pressure on prices and margins. 
+* CAPEX requirements decline. 
+* FCFE & DPR > 0.
+
+##### Maturity Phase
+
+* Equilibrium: investment opportunities earns the cost of capital. 
+* Return on equity equals to cost of capital. 
+* Earnings growth, DPR and ROE stabilize at sustainable long-term levels.  
+
+##### Terminal Value
+
+![image-20210502211352474](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20210502211352474.png)
+
+### H-Model
+
+$$
+V_0 = \frac{D_0(1+g_L)}{r-g_L} + \frac{D_0 \cdot H(g_s - g_L)}{r-g_L}
+$$
+
+**where h is the half life in years of the high growth period. **
+
+## Required Return
+
+
+
+
+
+
+
 
 
 
