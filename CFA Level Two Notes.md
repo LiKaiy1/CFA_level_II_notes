@@ -5003,6 +5003,80 @@ $$
 
 ## Required Return
 
+**$g = ROE \times RR $**
+
+#### PART Model
+
+![image-20210503165256799](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20210503165256799.png)
+
+## Free Cash Flow 
+
+* Not readily avaliable, must be computed and forecasting more complicated. 
+
+**Use Free Cash Flow for valuation when company pays no dividend or dividends have no relationship with earnings or capacity to pay. **
+
+FCFF(Free Cash Flow to the Firm)  FCFE (Free Cash Flow to Equity)
+
+FCFF = CFO + Int(1-t) - CAPEX
+
+FCFE = FCFF - Int(1-t) + Net Borrowings
+$$
+\text{Value of the firm} =  \sum_{t = 1}^{\infin} \frac{FCFF_t}{(1+ WACC)^t} \\
+\text{Value of Equity} = \sum_{t = 1}^{\infin} \frac{FCFE_t}{(1+r)^t} \\
+\text{Value of Equity } = \text{Value of Firm} - \text{Market Value of Debt}
+$$
+
+
+FCFF = NI + NCC + Int(1-t) - FC Inv - WCInv
+
+NCC is the net non-cash charges, usually depreciation
+
+Int(1-t) is after-tax interest expense
+
+FC Inv is the net investments in fixed capital
+
+WC Inv is the net investments in working capital
+
+![image-20210504102606186](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20210504102606186.png)
+
+**If FC Inv - NCC = 0, it implies FC Inv at a level necessary to maintain existing capacity.**
+
+If FC Inv > NCC, it implies level of FCInv required to support growth. 
+
+If FCInv < NCC, it implies unsustainable. 
+
+Fix capital investment = \$ to maintyain capacity and \$ to support growth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
