@@ -5047,41 +5047,108 @@ If FCInv < NCC, it implies unsustainable.
 
 Fix capital investment = \$ to maintyain capacity and \$ to support growth
 
+## Market Based Valuation
+
+### Comparables vs Forecasted Fundamentals
+
+#### Comparables 
+
+Based on a multiple of similar assets
+
+> Law of One Price
+>
+> 2 Identical assets should sell at the same price. 
+
+#### Justified Multiples
+
+##### P/E
+
+Earnings power is a chief driver of investment value.
+
+Widely recognized and used.
+
+But EPS can be 0, negative or ver small vs P. Therefore P/E will make no economic sense. 
+
+What to keep vs what to take out can be difficult to forecasty and adjust for. 
+
+EPS is a highly managed number. 
+
+> Normalized EPS 
+>
+> **Level of EPS expected under mid-cycle conditions.**
+>
+> $\text{Average ROE from the most recent full cycle} \times BVPS$
+
+>  Fed Model
+>
+> The fair value of S&P 500 is 1/(YTM 10 year T-Bond)
+
+> Yardeni Model
+> $$
+> CEY =   CBY - b\times LTEG  + Residual
+> $$
+> CEY is the current E/P
+>
+> CBY is the current bond yield (A rated coporate)
+>
+> LTEG is the consensus 5-yr earnings growth rate
+> $$
+> \text{Justified P/E} = \frac{1}{CBY - b\times LTEG}
+> $$
+
+###### Inflation Pass Through
+
+![image-20210505162244042](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20210505162244042.png)
+
+##### P/B
+
+**Book value represents on a per share basis, the investment common shareholders have made in the company.**
+$$
+\text{BV Per Share} = \frac{\text{Shareholder Equity} - \text{Terminal Value of Equity Claims(Senior to Common)}}{\# \text{of Shares Outstanding}}
+$$
 
 
+Useful for companies not expected to continue  as going concerns.
 
+Drawbacks: 
 
+* Does not account for critical non-balance sheet factors.l 
+* Difficult to compare companies with asset related business models. 
+* Accounting effects compromise usefulness of BV as a measure of shareholder investment. 
 
+$$
+\frac{P_0}{B_0} = \frac{ROE - g}{r - g}
+$$
 
+#####  P/S
 
+Sales less subject to distortion/manipulation. 
 
+Sales > 0 even when EPS is negative. 
 
+Sales more stable than EPS. 
 
+Appropriate for mature, cyclical and zero income firms. 
 
+##### P/CF
 
+CF is also less subject to manipulation
 
+More stable than earnings. 
 
+Sidesteps issues related to accounting choices. 
 
+But 
 
+Some definitions of cash-flow in adequate. 
 
+FCFE most appropriate but also most volatile of CF definitions. 
 
+##### P/D
 
+**Dividend Yield is price /the dividend rate **
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Rather than P/D, we use D/P
 
 
 
