@@ -5150,13 +5150,22 @@ FCFE most appropriate but also most volatile of CF definitions.
 
 Rather than P/D, we use D/P
 
+##### EV Multiples 
 
+Most widely used. A measure of pre-tax, pre-interest operating cash flow. 
 
+![image-20210508142841368](/Users/likaiyi/Documents/CFA_Level2/CFA_Level_II_MDnotes//image-20210508142841368.png)
 
+##### Momentum Valuation Indicators
 
+Unexpected Earnings 
+$$
+UE_t = EPS_t - E(EPS_t) \\
+\text{Scaled UE_t} = \frac{EPS_t - E(EPS_t)}{\sigma[E(EPS)]}
+$$
+RSI(Relative Strength Indicators)
 
-
-
+**Compares a stock's performance during a particular period with its own past performance or some group of stocks.**
 
 
 
