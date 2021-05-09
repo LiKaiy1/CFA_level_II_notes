@@ -5167,6 +5167,101 @@ RSI(Relative Strength Indicators)
 
 **Compares a stock's performance during a particular period with its own past performance or some group of stocks.**
 
+# Corporate Finance
+
+## Cash Flow Projections
+
+### Expansion Project
+
+An independent investement that does not affect the cash flows for the rest of the company. 
+
+### Depreciation Choices
+
+* Straight Line 
+* Sum Of The Years Digits 
+* Double Declining (150% decline)
+* Units of production 
+
+**Accelerated DEp will improve NPV of project.**
+
+Larger tax shield in first few years.
+
+### Replacement Project
+
+Cash Flow realized with investment - cash flow without the project.
+
+> Inflation
+>
+> Nominal CFs and Nominal discount rate  vs Real Cash Flows and real Discount Rate.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
